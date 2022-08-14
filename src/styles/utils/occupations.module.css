@@ -1,0 +1,6 @@
+.occupations {
+  color: var(--color5);
+  font-size: 1.2em;
+
+  white-space: pre-wrap;
+}

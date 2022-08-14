@@ -1,0 +1,93 @@
+@import "../common/palette.css";
+
+.aboutContainer {
+  background-color: var(--color2);
+  color: white;
+  padding: 5rem 0 0rem 0;
+  padding-bottom: 2rem;
+}
+
+.aboutContainer .title {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.countDownBackground {
+  background: linear-gradient(
+    180deg,
+    #ff8451 0%,
+    #ff8451 50%,
+    #ffffff 50%,
+    #ffffff 100%
+  );
+}
+
+.countDownContainer {
+  color: white;
+  background-color: var(--color3);
+  padding: 1rem;
+  padding-right: 2.5rem;
+  margin: auto;
+  font-size: 1.5pc;
+  width: 40rem;
+}
+
+.countDownRow {
+  display: block;
+  text-align: center;
+}
+
+.aboutContainer p a {
+  color: white;
+  text-decoration: underline;
+}
+
+.imageContainer {
+  position: relative;
+  margin-top: -20px;
+  padding: 1rem;
+  height: 400px;
+}
+
+.imageContainer:after {
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: -5px;
+  right: 10px;
+  border-bottom: 8px solid white;
+  border-right: 8px solid white;
+}
+
+.imageContainer:before {
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  border-top: 8px solid white;
+  border-left: 8px solid white;
+}
+
+@media (max-width: 768px) {
+  .imageContainer {
+    display: none;
+  }
+
+  .countDownContainer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .countDownContainer {
+    width: 20rem;
+  }
+  .countDownContainer .countDownCol {
+    flex-basis: 8rem;
+  }
+}

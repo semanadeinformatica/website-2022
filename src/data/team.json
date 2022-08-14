@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Coordenação Geral",
+    "members": [
+      {
+        "name": "Catarina Fernandes",
+        "img": "../images/team/catarina-fernandes.jpg",
+        "linkedin": "https://www.linkedin.com/in/catarina-fernandes-9801841a6/",
+        "github": "https://github.com/catarina03"
+      },
+      {
+        "name": "António Bezerra",
+        "img": "../images/team/antonio-bezerra.jpg",
+        "linkedin": "https://www.linkedin.com/in/antbezerra",
+        "github": "https://github.com/antbz"
+      }
+    ]
+  },
+  {
+    "name": "Informática",
+    "members": [
+      {
+        "name": "Iohan Sardinha",
+        "img": "../images/team/iohan-sardinha.jpg",
+        "linkedin": "https://www.linkedin.com/in/iohan-xavier-sardinha-dutra-soares-157003158",
+        "github": "https://github.com/IohanSardinha"
+      },
+      {
+        "name": "Bruno Mendes",
+        "img": "../images/team/bruno-mendes.jpg",
+        "github": "https://github.com/bdmendes"
+      },
+      {
+        "name": "Francisco Gonçalves",
+        "img": "../images/team/francisco-goncalves.jpg",
+        "linkedin": "https://linkedin.com/in/kikogoncalves",
+        "github": "https://github.com/kiko-g"
+      }
+    ]
+  },
+  {
+    "name": "Imagem e Comunicação",
+    "members": [
+      {
+        "name": "Mariana Rocha",
+        "img": "../images/team/mariana-rocha.jpg",
+        "linkedin": "https://pt.linkedin.com/in/mariana-rocha-599807200"
+      },
+      {
+        "name": "Adelaide Santos",
+        "img": "../images/team/adelaide-santos.jpg"
+      },
+      {
+        "name": "André Ávila",
+        "img": "../images/team/andre-avila.jpg",
+        "github": "https://github.com/AvilaAndre"
+      },
+      {
+        "name": "Mariana Teixeira",
+        "img": "../images/team/mariana-teixeira.jpg"
+      },
+      {
+        "name": "Tiago Alves",
+        "img": "../images/team/tiago-alves.jpg",
+        "linkedin": "https://www.linkedin.com/in/tiago-alves-35b066147",
+        "github": "https://github.com/tiago-falves"
+      }
+    ]
+  },
+  {
+    "name": "Operações",
+    "members": [
+      {
+        "name": "Margarida Raposo",
+        "img": "../images/team/margarida-raposo.jpg"
+      },
+      {
+        "name": "André Gomes",
+        "img": "../images/team/andre-gomes.jpg",
+        "linkedin": "https://www.linkedin.com/in/ca-moes/",
+        "github": "https://github.com/Ca-moes"
+      },
+      {
+        "name": "Miguel Silva",
+        "img": "../images/team/miguel-silva.jpg",
+        "github": "https://github.com/miguelcfsilva11",
+        "linkedin": "https://www.linkedin.com/in/miguel-silva-9132061b4/"
+      },
+      {
+        "name": "Sofia Lajes",
+        "img": "../images/team/sofia-lajes.jpg",
+        "linkedin": "https://www.linkedin.com/in/salajes/",
+        "github": "https://github.com/SALajes"
+      }
+    ]
+  },
+  {
+    "name": "Tesouraria",
+    "members": [
+      {
+        "name": "Ângela Coelho",
+        "img": "../images/team/angela-coelho.jpg",
+        "github": "https://github.com/angelacoelho01"
+      }
+    ]
+  },
+  {
+    "name": "Programa",
+    "members": [
+      {
+        "name": "Francisco Colino",
+        "img": "../images/team/francisco-colino.png",
+        "linkedin": "https://www.linkedin.com/in/francisco-colino-06281b1a9/",
+        "github": "https://github.com/FranciscoMColino"
+      },
+      {
+        "name": "João Gil Mesquita",
+        "img": "../images/team/joao-mesquita.jpg",
+        "github": "https://github.com/monkin77"
+      },
+      {
+        "name": "Bruno Rosendo",
+        "img": "../images/team/bruno-rosendo.jpg",
+        "github": "https://github.com/BrunoRosendo",
+        "linkedin": "https://linkedin.com/in/bruno-rosendo-97a181211/"
+      },
+      {
+        "name": "Teresa Ferreira",
+        "img": "../images/team/teresa-ferreira.jpg",
+        "github": "https://github.com/titf512",
+        "linkedin": "https://linkedin.com/in/teresatferreira"
+      },
+      {
+        "name": "Beatriz Santos",
+        "img": "../images/team/beatriz-santos.jpg",
+        "github": "https://github.com/beatrizlopesdossantos",
+        "linkedin": "https://www.linkedin.com/in/maria-beatriz-russo-lopes-dos-santos-bb8853148"
+      },
+      {
+        "name": "Pedro Seixas",
+        "img": "../images/team/pedro-seixas.jpg",
+        "github": "https://github.com/pedrojfs17",
+        "linkedin": "https://www.linkedin.com/in/pedrojfseixas/"
+      },
+      {
+        "name": "Luís Silva",
+        "img": "../images/team/luis-silva.jpg",
+        "linkedin": "https://www.linkedin.com/in/luis-marques-torres-e-silva-96a304192",
+        "github": "https://github.com/LuisMMMTS"
+      }
+    ]
+  },
+  {
+    "name": "Competição de Programação",
+    "members": [
+      {
+        "name": "Juliane Marubayashi",
+        "img": "../images/team/maruba.jpg",
+        "github": "https://github.com/Jumaruba",
+        "linkedin": "https://www.linkedin.com/in/jumaruba/"
+      }
+    ]
+  },
+  {
+    "name": "Relações Externas",
+    "members": [
+      {
+        "name": "Matilde Oliveira",
+        "img": "../images/team/matilde-oliveira.jpg",
+        "linkedin": "https://www.linkedin.com/in/matilde-oliveira-4a33231b8/"
+      },
+      {
+        "name": "Tiago Silva",
+        "img": "../images/team/tiago-silva.jpg",
+        "linkedin": "https://www.linkedin.com/in/TiagoCaldasSilva/",
+        "github": "https://github.com/TiagoCaldaSilva"
+      },
+      {
+        "name": "Vasco Guedes",
+        "img": "../images/team/vasco-guedes.jpg",
+        "linkedin": "https://www.linkedin.com/in/vasco-guedes-7538331b8/"
+      },
+      {
+        "name": "André Moreira",
+        "img": "../images/team/andre-moreira.jpg",
+        "linkedin": "https://www.linkedin.com/in/andremoreira9/",
+        "github": "https://github.com/DoStini"
+      },
+      {
+        "name": "Dinis Sousa",
+        "img": "../images/team/dinis-sousa.jpg",
+        "linkedin": "https://www.linkedin.com/in/dinis-sousa-35745620b/",
+        "github": "https://github.com/DinisSousa2003"
+      },
+      {
+        "name": "Lucas Santos",
+        "img": "../images/team/lucas-santos.jpg",
+        "linkedin": "https://www.linkedin.com/in/lucas-calvet-santos-411a171bb/",
+        "github": "https://github.com/lucascalvet"
+      },
+      {
+        "name": "Guilherme Almeida",
+        "img": "../images/team/guilherme-almeida.jpg",
+        "linkedin": "https://www.linkedin.com/in/guilherme-almeida-5007931b3/",
+        "github": "https://github.com/gui1612"
+      },
+      {
+        "name": "André Pereira",
+        "img": "../images/team/andre-pereira.jpg",
+        "linkedin": "https://www.linkedin.com/in/andr%C3%A9-diogo-bastos-pereira-a50556196/",
+        "github": "https://github.com/Andrepereira2001"
+      },
+      {
+        "name": "Inês Gaspar",
+        "img": "../images/team/ines-gaspar.jpg",
+        "github": "https://ni.fe.up.pt/member/ines-08"
+      },
+      {
+        "name": "Beatriz Aguiar",
+        "img": "../images/team/beatriz-aguiar.jpg",
+        "linkedin": "https://www.linkedin.com/in/beatrizmaguiar/",
+        "github": "https://github.com/beatriz-ag"
+      }
+    ]
+  }
+]

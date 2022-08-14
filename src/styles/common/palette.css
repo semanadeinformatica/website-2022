@@ -1,0 +1,21 @@
+:root {
+  --color1: #fc08bc;
+  --color2: #ff8451;
+  --color3: #ff1951;
+  --color4: #cdfffc;
+  --color5: #0b2f46;
+  --color6: #ffffff;
+}
+
+body {
+  font-size: 16px !important;
+}
+
+/* Old palette
+--color-old-1: #ff341f;
+--color-old-2: #ff711f;
+--color-old-3: #ffa000;
+--color-old-4: #ffe500;
+--color-old-5: #350052;
+--color-old-6: #;
+*/

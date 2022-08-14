@@ -1,0 +1,59 @@
+div.container {
+  margin-top: 4em;
+}
+
+.dailyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dayDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: var(--color5);
+}
+
+.date {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+div.speakersContainer {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+
+  justify-content: start;
+
+  width: 1064px;
+}
+
+div.speakerContainer {
+  margin: 8px;
+}
+
+@media (max-width: 1090px) {
+  div.speakersContainer {
+    grid-template-columns: repeat(3, auto);
+
+    width: 798px;
+  }
+}
+
+@media (max-width: 830px) {
+  div.speakersContainer {
+    grid-template-columns: repeat(2, auto);
+
+    width: 532px;
+  }
+}
+
+@media (max-width: 550px) {
+  div.speakersContainer {
+    grid-template-columns: repeat(1, auto);
+
+    width: 266px;
+  }
+}

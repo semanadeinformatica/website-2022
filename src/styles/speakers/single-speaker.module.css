@@ -1,0 +1,17 @@
+div.member_container {
+  padding: 0;
+  flex-grow: initial;
+
+  width: min-content;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: var(--color5);
+}
+
+.name:hover,
+.name:active {
+  color: var(--color5);
+}

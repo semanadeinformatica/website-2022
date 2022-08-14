@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import "../common/palette.css";
+
+.label {
+  background-color: var(--color3);
+}
+
+.main {
+  border-bottom: 1px #ccc solid;
+  margin-top: 1rem;
+  position: relative;
+  margin-right: 30%;
+}
+
+.main:first-child {
+  padding-top: 2rem;
+}
+
+.main:last-child {
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  border-bottom: none;
+}
+
+.main:before {
+  position: absolute;
+  content: attr(data-date);
+  color: var(--color2);
+  bottom: 50%;
+  left: -8rem;
+}
+
+.visit:before {
+  color: var(--color1) !important;
+}
+
+/* .session:before {
+  color: var(--color5);
+} */
+
+.commonEvent {
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.commonEvent:before {
+  top: 0.5rem;
+  color: var(--color3);
+  font-weight: 600;
+}
+
+.commonEvent:first-child:before {
+  top: 2.5rem;
+}
+
+.simpleEvent:first-child:before {
+  bottom: 40%;
+}
+
+.simpleEvent:last-child:after,
+.simpleEvent:last-child:before {
+  bottom: 65%;
+}
+
+.simpleEvent {
+  position: relative;
+}
+
+.simpleEvent:first-child:after {
+  bottom: 40%;
+}
+
+.simpleEvent:after {
+  position: absolute;
+  content: "";
+  background-color: var(--color2);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  bottom: 55%;
+  left: -3.25rem;
+}
+
+.simpleEvent:before {
+  position: absolute;
+  content: attr(data-date);
+  color: var(--color2);
+  top: unset;
+  left: -8rem;
+  font-weight: 600;
+}
+
+.eventTitle:before {
+  content: open-quote;
+}
+
+.eventTitle:after {
+  content: close-quote;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+}
+
+.title a {
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
+.speakers {
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.speakers a {
+  font-size: 1.3rem;
+  color: var(--color5);
+  text-decoration: underline;
+}
+
+.occupations {
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  color: var(--color5);
+}
+
+.withIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.withIcon .info {
+  margin-left: 1rem;
+}
+
+.timePlace {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: var(--color5);
+}
+
+.info h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  color: var(--color5);
+}
+
+.toggler input {
+  display: none;
+}
+
+.toggler input:checked + label .descriptionClosed {
+  transform: rotate(0deg) scale(1);
+  opacity: 0;
+}
+
+.toggler input:checked + label .descriptionOpen {
+  transform: rotate(180deg) scale(1);
+  opacity: 1;
+}
+
+.toggler label {
+  border-radius: 5px;
+  border: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -3.7rem;
+}
+
+.description {
+  font-size: 0.95rem;
+}
+
+.icons {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icons svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+}
+
+.descriptionClosed {
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.descriptionOpen {
+  transition: opacity 0.3s, transform 0.3s;
+  transform: rotate(-180deg) scale(1);
+  opacity: 0;
+}
+
+@media (max-width: 500px) {
+  .main:before {
+    display: none;
+  }
+
+  .main {
+    margin-right: 20%;
+  }
+
+  .title {
+    margin-bottom: 0.2rem;
+  }
+
+  .speakers a {
+    font-size: 1.2rem;
+  }
+
+  .occupations {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .simpleEvent:first-child:after {
+    bottom: 40%;
+  }
+}

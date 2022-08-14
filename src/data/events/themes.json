@@ -1,0 +1,17 @@
+[
+  {
+    "date": "15 Novembro",
+    "theme": "Diversity in Computer Science",
+    "icon": "network"
+  },
+  {
+    "date": "16 Novembro",
+    "theme": "Visual Simulation",
+    "icon": "diploma"
+  },
+  {
+    "date": "17 Novembro",
+    "theme": "AI in the real world",
+    "icon": "cogs"
+  }
+]

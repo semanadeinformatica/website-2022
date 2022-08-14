@@ -1,0 +1,46 @@
+.main {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.sponsorContainer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.gold {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+.silver {
+  width: 12rem;
+  margin: 0 auto;
+}
+
+.bronze {
+  width: 10rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .gold {
+    width: 15rem;
+  }
+
+  .silver {
+    width: 10rem;
+  }
+
+  .bronze {
+    width: 8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 75%;
+    margin-left: 10%;
+  }
+}

@@ -1,0 +1,32 @@
+@import url("../common/palette.css");
+
+.wrapper {
+  border-top: 1px solid #cecece;
+  padding: 5rem;
+}
+
+.role {
+  color: var(--color2);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.who {
+  color: var(--color5);
+  font-size: 1.5rem;
+}
+
+.name {
+  font-weight: 550;
+  font-size: 2rem;
+}
+
+.participant {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0;
+  }
+}
