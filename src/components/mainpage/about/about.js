@@ -19,9 +19,13 @@ const About = () => {
           <Row className="mt-5">
             <Col xs="12" lg="6">
               <p>
-                A Semana de Informática (SINF), organizada pelo Núcleo de
-                Informática da Associação de Estudantes da Faculdade de
-                Engenharia da Universidade do Porto (
+                A <strong>Semana de Informática</strong> (SINF),{" "}
+                <strong>organizada</strong> pelo{" "}
+                <strong>
+                  Núcleo de Informática da Associação de Estudantes da Faculdade
+                  de Engenharia da Universidade do Porto
+                </strong>{" "}
+                (
                 <a
                   href="https://ni.fe.up.pt/"
                   rel="noopener noreferrer"
@@ -29,22 +33,26 @@ const About = () => {
                 >
                   NIAEFEUP
                 </a>
-                ), foi criada com o intuito de permitir aos estudantes,
-                independentemente do curso, desenvolver as suas capacidades nas
-                diversas áreas da Informática, promovendo a sua interação com o
-                mundo empresarial através de eventos sociais.
+                ), foi criada com o intuito de{" "}
+                <strong>permitir aos estudantes</strong>, independentemente do
+                curso, <strong>desenvolver</strong> as suas{" "}
+                <strong>capacidades</strong> nas diversas áreas da Informática,
+                promovendo a sua <strong>interação</strong> com o
+                <strong>mundo empresarial</strong> através de eventos sociais.
               </p>
             </Col>
             <Col xs="12" lg="6">
               <p>
-                A edição de 2021 decorre entre os dias 15 a 17 de novembro, em
-                modo <em>híbrido</em>. Os participantes têm a seu dispor
-                palestras e workshops onde entrarão em contacto com diversas
-                tecnologias e conceitos que não intervêm no percurso académico,
-                focando-se portanto nas skills técnicas, assim como um pitch e
-                sessões de entrevistas, fomentando o seu contacto com empresas
-                de topo a nível nacional e internacional, podendo desenvolver as
-                suas soft skills.
+                A edição de 2022 decorre entre os dias{" "}
+                <strong>31 de outubro a 2 de novembro</strong>. Os participantes
+                têm a seu dispor <strong>palestras</strong>e{" "}
+                <strong>workshops</strong> onde entrarão em contacto com
+                diversas tecnologias e conceitos que não intervêm no percurso
+                académico, focando-se portanto nas skills técnicas, assim como
+                um <strong>pitch, sessões de entrevistas</strong> e{" "}
+                <strong>visitas a empresas</strong>, fomentando o seu contacto
+                com empresas de topo a nível nacional e internacional, podendo
+                desenvolver as suas soft skills.
               </p>
             </Col>
           </Row>
