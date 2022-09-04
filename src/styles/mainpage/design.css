@@ -1,0 +1,21 @@
+@import "../common/palette.css";
+
+:root {
+  /* Banner */
+  /* This background is the fallback background for when the image fail to load or there are no images to load in the showcase folder */
+  --banner-background: linear-gradient(
+    180deg,
+    var(--turquoise) 0%,
+    var(--navy-blue) 75%
+  );
+
+  --banner-first-line-color: var(--yellow);
+  --banner-first-line-size: 1.4em;
+  --banner-second-line-color: var(--baby-blue);
+  --banner-second-line-size: 1em;
+
+  /* Used to hide the icon links in the banner (can be either "none" or "flex") */
+  --banner-icon-links-display: none;
+  --banner-icon-link-color: var(--yellow);
+  --banner-icon-link-color-hover: var(--yellow);
+}
