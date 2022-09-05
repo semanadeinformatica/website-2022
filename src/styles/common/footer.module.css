@@ -78,6 +78,7 @@
   .topLayer {
     justify-content: center;
     flex-direction: column-reverse;
+    margin: 1rem 2rem 1rem 2rem;
   }
   .logo {
     margin: 1rem;
