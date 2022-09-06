@@ -14,7 +14,7 @@ const Speakers = ({ speakers, path }) => {
     );
     return occupations.map((occupation, index) => (
       <span style={{ marginRight: "0.3rem" }}>
-        {index != occupations.length - 1 ? `${occupation},` : occupation}
+        {index !== occupations.length - 1 ? `${occupation},` : occupation}
       </span>
     ));
   };
