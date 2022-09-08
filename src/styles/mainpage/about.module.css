@@ -1,10 +1,9 @@
 @import "./design.css";
 
 .aboutContainer {
-  background-color: var(--yellow);
-  color: white;
-  padding: 5rem 0 0rem 0;
-  padding-bottom: 2rem;
+  background: var(--about-us-background);
+  color: var(--about-us-color);
+  padding: 2rem 0;
 }
 
 .aboutContainer .title {
@@ -12,19 +11,35 @@
   padding-bottom: 20px;
 }
 
-.countDownBackground {
-  background: linear-gradient(
-    180deg,
-    #ff8451 0%,
-    #ff8451 50%,
-    #ffffff 50%,
-    #ffffff 100%
-  );
+.aboutHeader {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.aboutHeader svg {
+  width: auto;
+  height: 2.5em;
+  fill: var(--about-us-header-color);
+}
+
+.aboutHeader h2 {
+  margin: 0;
+  color: var(--about-us-header-color);
 }
 
 .countDownContainer {
-  color: white;
-  background-color: var(--color3);
+  background: var(--countdown-background);
+  color: var(--countdown-color);
+  border: var(--countdown-border);
+  border-radius: var(--countdown-border-radius);
+
+  font-weight: bold;
   padding: 1rem;
   padding-right: 2.5rem;
   margin: auto;
@@ -38,7 +53,7 @@
 }
 
 .aboutContainer p a {
-  color: white;
+  color: var(--about-us-link-color);
   text-decoration: underline;
 }
 
@@ -84,6 +99,10 @@
 }
 
 @media (max-width: 576px) {
+  .aboutHeader svg {
+    display: none;
+  }
+
   .countDownContainer {
     width: 20rem;
   }

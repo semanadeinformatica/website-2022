@@ -6,7 +6,7 @@ import Layout from "../components/common/layout";
 
 import Banner from "../components/mainpage/banner/banner";
 import About from "../components/mainpage/about/about";
-import Speakers from "../components/mainpage/speakers/speakers";
+import Activities from "../components/mainpage/activities/activities";
 import Tickets from "../components/mainpage/tickets";
 import Sponsors from "../components/mainpage/sponsors/sponsors";
 import Contacts from "../components/mainpage/contacts/wrapper";
@@ -18,7 +18,7 @@ const IndexPage = () => (
     <Layout>
       <Banner />
       <About />
-      <Speakers />
+      <Activities />
       <Tickets />
       <Sponsors />
       <Container fluid>

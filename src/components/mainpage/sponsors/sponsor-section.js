@@ -1,6 +1,6 @@
-import React from "react"
-import SingleSponsor from "./single-sponsor"
-import sponsorsStyles from "../../../styles/mainpage/sponsors.module.css"
+import React from "react";
+import SingleSponsor from "./single-sponsor";
+import sponsorsStyles from "../../../styles/mainpage/sponsors.module.css";
 
 export const getSponsors = (data, type) => {
   return data.allMarkdownRemark.edges
@@ -11,25 +11,30 @@ export const getSponsors = (data, type) => {
         sponsor={node.frontmatter}
         type={type}
       />
-    ))
-}
+    ));
+};
 
 const SponsorSection = ({ sponsorData, type }) => {
-  let wrapperType
+  let wrapperType;
 
   if (type === "gold") {
-    wrapperType = sponsorsStyles.goldWrapper
+    wrapperType = sponsorsStyles.goldSponsor;
   } else if (type === "silver") {
-    wrapperType = sponsorsStyles.silverWrapper
+    wrapperType = sponsorsStyles.silverSponsor;
   } else {
-    wrapperType = sponsorsStyles.bronzeWrapper
+    wrapperType = sponsorsStyles.bronzeSponsor;
   }
 
   return (
-    <div className={[sponsorsStyles.otherSponsors, wrapperType].join(" ")}>
-      {sponsorData}
+    <div>
+      <h3
+        className={[sponsorsStyles.sponsorTypeHeading, wrapperType].join(" ")}
+      >
+        {type.toUpperCase()}
+      </h3>
+      <div className={sponsorsStyles.otherSponsors}>{sponsorData}</div>
     </div>
-  )
-}
+  );
+};
 
-export default SponsorSection
+export default SponsorSection;

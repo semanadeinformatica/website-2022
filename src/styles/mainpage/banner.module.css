@@ -43,6 +43,7 @@
 
 .info p {
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 .info p:nth-of-type(1) {

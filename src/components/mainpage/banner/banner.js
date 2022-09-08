@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Icon from "../../../images/svg/logo_sinf_comp.inline.svg";
 import BannerStyles from "../../../styles/mainpage/banner.module.css";
 import { useShowcaseImages } from "../../hooks/showcase-query";
+import Img from "gatsby-image";
 import BasicInfo from "./basic-info";
 
 const Banner = () => {
@@ -28,8 +29,8 @@ const Banner = () => {
             className={BannerStyles.carousel_item}
             key={pic.node.id}
           >
-            <img
-              src={pic.node.childImageSharp.fluid.src}
+            <Img
+              fluid={pic.node.childImageSharp.fluid}
               alt="Participantes em edições anteriores da SINF"
             />
           </Carousel.Item>

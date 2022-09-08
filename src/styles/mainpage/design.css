@@ -18,4 +18,52 @@
   --banner-icon-links-display: none;
   --banner-icon-link-color: var(--yellow);
   --banner-icon-link-color-hover: var(--yellow);
+
+  /* About Us */
+  --about-us-background: linear-gradient(
+    180deg,
+    var(--orange) 0%,
+    var(--yellow) 100%
+  );
+
+  --about-us-header-color: var(--navy-blue);
+  --about-us-color: var(--navy-blue);
+  --about-us-link-color: var(--navy-blue);
+
+  /* Activities */
+  --activities-background: var(--navy-blue);
+  --activities-header-color: var(--yellow);
+
+  --activities-link-color: var(--yellow);
+  --activities-link-color-hover: var(--yellow);
+  --activities-item-backdrop: var(--baby-blue);
+  --activities-item-backdrop-hover: var(--navy-blue);
+  --activities-item-backdrop-opacity: 0.4;
+  --activities-item-backdrop-opacity-hover: 0.5;
+
+  /* Countdown */
+  --countdown-background: var(--navy-blue);
+  --countdown-color: var(--baby-blue);
+  --countdown-border: 0.125em solid var(--yellow);
+  --countdown-border-radius: 0.5em;
+
+  /* Tickets */
+  --tickets-background: var(--navy-blue);
+  --tickets-signup-background: linear-gradient(
+    180deg,
+    var(--orange) 0%,
+    var(--yellow) 100%
+  );
+
+  --tickets-signup-opacity: 1;
+  --tickets-signup-color: var(--navy-blue);
+
+  --tickets-signup-opacity-hover: 1;
+  --tickets-signup-color-hover: var(--navy-blue);
+
+  /* Sponsors */
+  --sponsors-background: var(--baby-blue);
+  --sponsors-header-color: var(--navy-blue);
+  --sponsors-line-color: var(--navy-blue);
+  --sponsor-type-background: var(--navy-blue);
 }

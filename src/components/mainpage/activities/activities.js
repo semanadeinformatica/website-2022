@@ -1,0 +1,56 @@
+import React from "react";
+import ActivitiesStyles from "../../../styles/mainpage/activities.module.css";
+
+const Activities = () => {
+  return (
+    <section className={ActivitiesStyles.section}>
+      <h2 className={ActivitiesStyles.header}>
+        VEM DESCOBRIR AS ATIVIDADES QUE TEMOS PARA TI!
+      </h2>
+      <div className={ActivitiesStyles.gallery}>
+        <div>
+          <img src="/og_thumbnail.png" />
+          <a
+            href="https://ni.fe.up.pt/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            WORKSHOPS
+          </a>
+        </div>
+        <div>
+          <img src="/og_thumbnail.png" />
+          <a
+            href="https://ni.fe.up.pt/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            PALESTRAS
+          </a>
+        </div>
+        <div>
+          <img src="/og_thumbnail.png" />
+          <a
+            href="https://ni.fe.up.pt/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            COMPETIÇÃO
+          </a>
+        </div>
+        <div>
+          <img src="/og_thumbnail.png" />
+          <a
+            href="https://ni.fe.up.pt/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            CTF
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Activities;

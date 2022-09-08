@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1364 837.4" style="enable-background:new 0 0 1364 837.4;" xml:space="preserve">
 <style type="text/css">
-	.st0{clip-path:url(#SVGID_2_);fill:url(#SVGID_3_);}
+	.st0{clip-path:url(#SVGID_2_);}
 </style>
 <g>
 	<g>
@@ -22,14 +22,6 @@
 				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 			</clipPath>
 			
-				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-3.0454" y1="-32.1086" x2="1.8041" y2="-32.1086" gradientTransform="matrix(154.5574 146.4795 -146.4795 154.5574 -3916.854 5455.9438)">
-				<stop  offset="0" style="stop-color:#FFFFFF"/>
-				<stop  offset="0.3" style="stop-color:#FFFFFF"/>
-				<stop  offset="0.4614" style="stop-color:#FFFFFF"/>
-				<stop  offset="0.6049" style="stop-color:#FFFFFF"/>
-				<stop  offset="0.6769" style="stop-color:#FFFFFF"/>
-				<stop  offset="1" style="stop-color:#FFFFFF"/>
-			</linearGradient>
 			<polygon class="st0" points="670,-396.1 1490.9,381.9 712.9,1202.8 -107.9,424.8 			"/>
 		</g>
 	</g>
