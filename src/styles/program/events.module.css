@@ -31,7 +31,7 @@
 }
 
 .visit:before {
-  color: var(--color1) !important;
+  color: var(--color2) !important;
 }
 
 /* .session:before {
@@ -45,8 +45,7 @@
 
 .commonEvent:before {
   top: 0.5rem;
-  color: var(--color3);
-  font-weight: 600;
+  color: var(--color2);
 }
 
 .commonEvent:first-child:before {
@@ -84,10 +83,17 @@
 .simpleEvent:before {
   position: absolute;
   content: attr(data-date);
-  color: var(--color2);
+  color: var(--color5);
   top: unset;
   left: -8rem;
-  font-weight: 600;
+}
+
+.eventTitle {
+  color: var(--color2);
+}
+
+.eventTitle a {
+  color: var(--color2);
 }
 
 .eventTitle:before {
@@ -105,24 +111,36 @@
 .title a {
   text-decoration: underline;
   font-size: 1.3rem;
+  color: var(--color2);
+}
+
+.speakerRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem; /*TODO: responsive*/
+  color: var(--color1);
+  flex-wrap: wrap;
 }
 
 .speakers {
   margin-bottom: 0;
+  margin-right: 0.5rem;
   line-height: 1;
+  padding-bottom: 0.2rem;
 }
 
 .speakers a {
   font-size: 1.3rem;
-  color: var(--color5);
   text-decoration: underline;
+  color: var(--color3);
 }
 
 .occupations {
+  display: flex;
+  flex-wrap: wrap;
   font-weight: 300;
   font-size: 1.2rem;
   margin-bottom: 0;
-  color: var(--color5);
 }
 
 .withIcon {
@@ -138,13 +156,13 @@
 .timePlace {
   font-size: 0.9rem;
   margin-bottom: 1rem;
-  color: var(--color5);
+  color: var(--color1);
 }
 
 .info h4 {
   font-size: 1.3rem;
   margin-bottom: 0;
-  color: var(--color5);
+  color: var(--color1);
 }
 
 .toggler input {
@@ -177,6 +195,7 @@
 
 .description {
   font-size: 0.95rem;
+  color: var(--color1);
 }
 
 .icons {
