@@ -20,7 +20,7 @@
 
 .headingLine {
   opacity: 100;
-  width: 25rem;
+  /* width: 25rem; */
   height: 4px;
   margin: 0.2rem auto;
   color: white;

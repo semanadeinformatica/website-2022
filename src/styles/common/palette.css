@@ -1,9 +1,15 @@
 :root {
-  --color1: #8ecae6;
+  --yellow: #ffb703;
+  --orange: #fb8500;
+  --baby-blue: #8ecae6;
+  --turquoise: #219ebc;
+  --navy-blue: #023047;
+
+  --color1: #ffb703;
   --color2: #fb8500;
-  --color3: #dedede;
+  --color3: #8ecae6;
   --color4: #219ebc;
-  --color5: #ffb703;
+  --color5: #023047;
   --color6: #023047;
 }
 
