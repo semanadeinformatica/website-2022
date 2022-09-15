@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 
 import AboutStyles from "../../../styles/mainpage/about.module.css";
 import mainStyles from "../../../styles/mainpage/mainpage.module.css";
-import Countdown from "../countdown/countdown";
 import Icon from "../../../images/svg/logo-outline-white.inline.svg";
 
 const About = () => {

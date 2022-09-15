@@ -1,6 +1,4 @@
 import React from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Countdown from "./countdown/countdown";
 import Container from "react-bootstrap/Container";
 import ticketsStyles from "../../styles/mainpage/tickets.module.css";

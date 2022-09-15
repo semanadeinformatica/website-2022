@@ -9,9 +9,9 @@ const Activities = () => {
       </h2>
       <div className={ActivitiesStyles.gallery}>
         <div>
-          <img src="/og_thumbnail.png" />
+          <img src="/og_thumbnail.png" alt="workshops" />
           <a
-            href="https://ni.fe.up.pt/"
+            href="https://ni.fe.up.pt/programa"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -19,9 +19,9 @@ const Activities = () => {
           </a>
         </div>
         <div>
-          <img src="/og_thumbnail.png" />
+          <img src="/og_thumbnail.png" alt="palestras" />
           <a
-            href="https://ni.fe.up.pt/"
+            href="https://ni.fe.up.pt/programa"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -29,7 +29,7 @@ const Activities = () => {
           </a>
         </div>
         <div>
-          <img src="/og_thumbnail.png" />
+          <img src="/og_thumbnail.png" alt="Competição de programação" />
           <a
             href="https://ni.fe.up.pt/"
             rel="noopener noreferrer"
@@ -39,7 +39,7 @@ const Activities = () => {
           </a>
         </div>
         <div>
-          <img src="/og_thumbnail.png" />
+          <img src="/og_thumbnail.png" alt="CTF" />
           <a
             href="https://ni.fe.up.pt/"
             rel="noopener noreferrer"
