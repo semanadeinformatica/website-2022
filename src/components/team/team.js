@@ -27,9 +27,7 @@ const Team = ({ name, members, n_per_row }) => {
     <div className={TeamStyles.team_container}>
       <div className={TeamStyles.team_title_container}>
         <h2 className={TeamStyles.team_title}>{name}</h2>
-        <svg width="140" height="3">
-          <rect width="140" height="3" style={{ fill: "#0b2f46" }} />
-        </svg>
+        <div style={{ width: "140px" }} className={"separator"} />
       </div>
       <div className={TeamStyles.members_container}>
         {member_rows.map(row_members => {

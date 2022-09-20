@@ -78,7 +78,7 @@ export default class NavBar extends React.Component {
         internal: false
       },
       {
-        url: "/program",
+        url: "/programa",
         text: "Programa",
         internal: true
       },

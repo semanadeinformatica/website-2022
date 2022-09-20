@@ -1,10 +1,12 @@
 .container {
-  margin-top: 3rem;
+  padding-top: 0.5rem;
   overflow-x: hidden;
+  background-color: var(--color6);
 }
 
 .pageTitle {
   font-weight: 600;
+  color: var(--color3);
 }
 
 .schedule {
@@ -29,13 +31,13 @@
 }
 
 .innerTab:hover {
-  color: var(--color5) !important;
+  color: var(--color1) !important;
 }
 
 .innerTab.active {
-  color: var(--color5) !important;
+  color: var(--color1) !important;
   width: auto;
-  border-bottom: 0.3rem solid var(--color5);
+  border-bottom: 0.2rem solid var(--color1);
 }
 
 .navItem {
@@ -44,9 +46,13 @@
   align-items: center;
 }
 
+.navItem path {
+  fill: var(--color5);
+}
+
 .navItemWrapper {
   position: relative;
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid #fff0;
   padding: 0.4rem 0.4rem;
   cursor: pointer;
 }
@@ -69,7 +75,7 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  background-color: var(--color1);
+  background-color: var(--color2);
 }
 
 .navItem :first-child {
@@ -90,7 +96,7 @@
 
 .navItemWrapper:hover,
 .navItemWrapper.active {
-  border-color: var(--color1) !important;
+  border-color: var(--color2) !important;
 }
 
 .navItemWrapper:hover:after,
@@ -101,7 +107,7 @@
 .themeHeader {
   display: inline-block;
   color: white;
-  background-color: var(--color1);
+  background-color: var(--color2);
   padding: 1.5rem 2rem;
   border-radius: 0 0px 10px 10px;
   margin-top: 0.5rem;
