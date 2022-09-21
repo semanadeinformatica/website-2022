@@ -11,15 +11,6 @@
   margin: 0 auto 2rem auto;
 }
 
-.CountdownRow {
-  display: block;
-  text-align: center;
-}
-
-.CountdownContainer {
-  border-radius: 1rem;
-}
-
 .wrapper li {
   display: flex;
   flex-direction: column;
@@ -50,28 +41,37 @@
 }
 
 .signUp {
-  margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 300;
-  transition: all 0.4s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 1rem;
+
+  padding: 2rem 3rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
   color: white;
+
+  opacity: var(--tickets-signup-opacity);
+  color: var(--tickets-signup-color);
+  background: var(--tickets-signup-background);
+  transition: color 250ms ease, opacity 250ms ease, background 250ms ease;
 }
 
 .signUp:hover {
-  color: var(--color4);
-  opacity: 0.8;
+  opacity: var(--tickets-signup-opacity-hover);
+  color: var(--tickets-signup-color-hover);
 }
 
 .section {
-  background-image: url("../../images/showcase/foto1.png");
+  background: var(--tickets-background);
   text-align: center;
   color: white;
-  padding: 15rem 20%;
+  padding: 6rem 0;
   width: 100%;
   height: auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 @media (max-width: 900px) {
@@ -88,6 +88,10 @@
   .wrapper {
     border: none;
     grid-template-columns: 1fr;
+  }
+
+  .signUp {
+    font-size: 1.2rem;
   }
 
   .section {

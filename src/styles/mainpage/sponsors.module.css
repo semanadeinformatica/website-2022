@@ -1,21 +1,24 @@
+@import "./design.css";
+
 .sponsorsSection {
-  padding: 5rem 0 7rem 0;
-  background-color: white;
+  padding: 3rem 0 7rem 0;
+  background-color: var(--sponsors-background);
 }
 
 .h2 {
   font-size: 2.5rem;
-  color: #fc08bc !important;
+  color: var(--sponsors-header-color) !important;
 }
 
 hr:not([size]) {
   height: 0.3rem !important;
-  width: 19rem !important;
+  /* width: 19rem !important; */
 }
 
 .headingLine {
-  color: #fc08bc !important;
-  background-color: #fc08bc !important;
+  background-color: var(--sponsors-line-color) !important;
+
+  margin-top: 2rem;
 }
 
 .sponsorsType {
@@ -30,19 +33,26 @@ hr:not([size]) {
   border: 2px solid white;
 }
 
+.sponsorTypeHeading {
+  background: var(--sponsor-type-background);
+  margin: 1rem auto 2rem;
+  width: max-content;
+
+  padding: 1rem 6rem;
+  border-radius: 0.75rem;
+  font-weight: bold;
+}
+
 .goldSponsor {
-  background-color: var(--color2);
-  border: 2px solid;
+  color: #ffb703;
 }
 
 .silverSponsor {
-  background-color: var(--color3);
-  border: 2px solid;
+  color: #c0c0c0;
 }
 
 .bronzeSponsor {
-  background-color: var(--color4);
-  border: 2px solid;
+  color: #fb8500;
 }
 
 .mainSponsor {
@@ -64,7 +74,7 @@ hr:not([size]) {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 4rem 10rem;
+  margin: 1rem 10rem 6rem;
 }
 
 @media (max-width: 1000px) {

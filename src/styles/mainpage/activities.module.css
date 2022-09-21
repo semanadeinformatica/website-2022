@@ -1,0 +1,95 @@
+@import "./design.css";
+
+.section {
+  background-color: var(--activities-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4rem;
+  padding: 2rem;
+}
+
+.header {
+  color: var(--activities-header-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: min(60%, 40rem);
+}
+
+.gallery > div {
+  width: 50%;
+  position: relative;
+}
+
+.gallery > div::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  background: var(--activities-item-backdrop);
+  opacity: var(--activities-item-backdrop-opacity);
+
+  transition: opacity 250ms ease, background-color 250ms ease;
+}
+
+.gallery > div:hover::after {
+  background: var(--activities-item-backdrop-hover);
+  opacity: var(--activities-item-backdrop-opacity-hover);
+}
+
+.gallery > div > img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery > div > a {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--activities-link-color);
+  text-decoration: none;
+  z-index: 2;
+
+  transition: color 250ms ease;
+}
+
+.gallery > div > a {
+  color: var(--activities-link-color-hover);
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    width: 70%;
+  }
+
+  .gallery > div > a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gallery {
+    width: 100%;
+  }
+
+  .gallery > div > a {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+}

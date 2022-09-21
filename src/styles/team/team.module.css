@@ -2,17 +2,21 @@
 
 .team_page_title {
   font-weight: 600;
+  color: var(--darkreader-text--color5) !important;
 }
 
 div.container {
-  margin-top: 4em;
+  min-width: 100%;
+  padding-top: 0.5rem;
+  padding: 0 4rem;
+  overflow-x: hidden;
+  background-color: var(--color6);
 }
 
 div.team_container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin-bottom: 5em;
 }
 
@@ -33,10 +37,9 @@ h2.team_title {
 
 div.members_container {
   margin-top: 1.5em;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-
-  justify-content: start;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 div.member_container {

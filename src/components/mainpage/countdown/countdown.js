@@ -14,7 +14,7 @@ class Countdown extends React.Component {
 
   constructor(props) {
     super(props);
-    this.countDownDate = new Date("Nov 15, 2021 14:30:00").getTime();
+    this.countDownDate = new Date("Oct 31, 2022 14:30:00").getTime();
     let now = new Date().getTime();
     let distance = this.countDownDate - now;
     this.state = {
@@ -48,7 +48,7 @@ class Countdown extends React.Component {
 
   render() {
     return (
-      <Row>
+      <Row className={AboutStyles.countDownContainer}>
         <Col className={AboutStyles.countDownCol}>
           <Row className={AboutStyles.countDownRow}>{this.state.days}</Row>
           <Row className={AboutStyles.countDownRow}>Dias</Row>

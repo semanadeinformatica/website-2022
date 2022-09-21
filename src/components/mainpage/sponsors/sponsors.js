@@ -1,15 +1,15 @@
-import React from "react"
-import sponsorsStyles from "../../../styles/mainpage/sponsors.module.css"
-import mainStyles from "../../../styles/mainpage/mainpage.module.css"
-import SponsorSection, { getSponsors } from "../sponsors/sponsor-section"
-import { useSponsors } from "../../hooks/sponsors-query"
+import React from "react";
+import sponsorsStyles from "../../../styles/mainpage/sponsors.module.css";
+import mainStyles from "../../../styles/mainpage/mainpage.module.css";
+import SponsorSection, { getSponsors } from "../sponsors/sponsor-section";
+import { useSponsors } from "../../hooks/sponsors-query";
 
 const Sponsors = () => {
-  const data = useSponsors()
-  const mainSponsors = getSponsors(data, "main")
-  const goldSponsors = getSponsors(data, "gold")
-  const silverSponsors = getSponsors(data, "silver")
-  const bronzeSponsors = getSponsors(data, "bronze")
+  const data = useSponsors();
+  const mainSponsors = getSponsors(data, "main");
+  const goldSponsors = getSponsors(data, "gold");
+  const silverSponsors = getSponsors(data, "silver");
+  const bronzeSponsors = getSponsors(data, "bronze");
 
   return (
     (mainSponsors.length > 0 ||
@@ -18,11 +18,11 @@ const Sponsors = () => {
       bronzeSponsors.length > 0) && (
       <section id="sponsors" className={sponsorsStyles.sponsorsSection}>
         <h2 className={[mainStyles.h2, sponsorsStyles.h2].join(" ")}>
-          Sponsors
+          OS NOSSOS SPONSORS
           <hr
             className={[
               mainStyles.headingLine,
-              sponsorsStyles.headingLine,
+              sponsorsStyles.headingLine
             ].join(" ")}
           />
         </h2>
@@ -39,7 +39,7 @@ const Sponsors = () => {
         <SponsorSection sponsorData={bronzeSponsors} type="bronze" />
       </section>
     )
-  )
-}
+  );
+};
 
-export default Sponsors
+export default Sponsors;
