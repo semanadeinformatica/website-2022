@@ -1,8 +1,8 @@
 @import "./palette.css";
 
 :root {
-  --background: var(--color6);
-  --copyrigth-text: var(--color5);
+  --background: var(--color5);
+  --copyrigth-text: var(--color1);
   --location-text: var(--color4);
 }
 
