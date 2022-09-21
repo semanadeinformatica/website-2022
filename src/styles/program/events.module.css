@@ -2,7 +2,7 @@
 @import "../common/palette.css";
 
 .label {
-  background-color: var(--color3);
+  background-color: var(--color0);
 }
 
 .main {
@@ -83,7 +83,7 @@
 .simpleEvent:before {
   position: absolute;
   content: attr(data-date);
-  color: var(--color5);
+  color: var(--color1);
   top: unset;
   left: -8rem;
 }
@@ -118,7 +118,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 0.5rem; /*TODO: responsive*/
-  color: var(--color1);
+  color: var(--color3);
   flex-wrap: wrap;
 }
 
@@ -132,7 +132,7 @@
 .speakers a {
   font-size: 1.3rem;
   text-decoration: underline;
-  color: var(--color3);
+  color: var(--color0);
 }
 
 .occupations {
@@ -156,13 +156,13 @@
 .timePlace {
   font-size: 0.9rem;
   margin-bottom: 1rem;
-  color: var(--color1);
+  color: var(--color3);
 }
 
 .info h4 {
   font-size: 1.3rem;
   margin-bottom: 0;
-  color: var(--color1);
+  color: var(--color3);
 }
 
 .toggler input {
@@ -195,7 +195,7 @@
 
 .description {
   font-size: 0.95rem;
-  color: var(--color1);
+  color: var(--color0);
 }
 
 .icons {
