@@ -1,19 +1,18 @@
-@import "../common/palette.css";
+@import "./design.css";
 
 div.container {
   padding: 0;
 }
 
+div.container:nth-of-type(n + 2) .id_container,
+div.container:nth-of-type(n + 2) .mb_blue {
+  background: var(--next-speakers-background);
+}
+
 .id_container {
   display: none;
   align-items: flex-end;
-  background: linear-gradient(
-    to bottom,
-    var(--color1) 0%,
-    var(--color2) 30%,
-    var(--color2) 50%,
-    white 50%
-  );
+  background: var(--speaker-background);
   padding-top: 5em;
   margin-bottom: 2em;
 }
@@ -25,6 +24,7 @@ div.id_wrapper {
 
 div.frame {
   flex-grow: unset;
+  margin-right: 1rem;
 }
 
 .name {
@@ -32,7 +32,8 @@ div.frame {
 }
 
 .bio {
-  margin: 4em 1em 3em 20px;
+  margin: 1em 1em 3em 0;
+  color: var(--speaker-bio-text-color);
 }
 
 .mb_blue {
@@ -40,13 +41,11 @@ div.frame {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--color1);
-  background: linear-gradient(
-    to bottom,
-    var(--color1) 0%,
-    var(--color2) 60%,
-    var(--color2) 80%
-  );
+  background: var(--speaker-background);
+}
+
+div.mb_id_container {
+  background: var(--speaker-base-background-color);
 }
 
 @media (min-width: 991px) {
@@ -62,7 +61,7 @@ div.frame {
     max-width: 720px;
   }
 
-  div.id_container {
+  /* div.id_container {
     background: linear-gradient(
       to bottom,
       var(--color1) 0%,
@@ -70,7 +69,7 @@ div.frame {
       var(--color2) 17rem,
       white 17rem
     );
-  }
+  } */
 
   div.id_wrapper {
     max-width: 960px;
