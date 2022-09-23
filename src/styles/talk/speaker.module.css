@@ -32,7 +32,9 @@ div.frame {
 }
 
 .bio {
-  margin: 1em 1em 3em 0;
+  max-width: 30rem;
+  margin: 1em auto 3em;
+  padding: 0 1em;
   color: var(--speaker-bio-text-color);
 }
 
@@ -46,6 +48,13 @@ div.frame {
 
 div.mb_id_container {
   background: var(--speaker-base-background-color);
+}
+
+@media (min-width: 768px) {
+  .bio {
+    max-width: 40rem;
+    padding: initial;
+  }
 }
 
 @media (min-width: 991px) {
@@ -70,6 +79,10 @@ div.mb_id_container {
       white 17rem
     );
   } */
+
+  .bio {
+    margin: 1em 1em 3em 0;
+  }
 
   div.id_wrapper {
     max-width: 960px;
