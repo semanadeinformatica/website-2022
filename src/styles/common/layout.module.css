@@ -1,3 +1,4 @@
+@import url("../common/palette.css");
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -6,4 +7,10 @@
 
 .content {
   flex: 1 0 auto;
+  background-color: var(--color5);
+  color: var(--color0);
+}
+
+.content main {
+  position: relative;
 }

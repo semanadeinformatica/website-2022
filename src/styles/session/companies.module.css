@@ -1,8 +1,11 @@
 @import url("../common/palette.css");
 
+:root {
+  --company-logo-border-color: var(--color4);
+  --company-logo-background: #fff;
+}
+
 .companiesContainer {
-  border-top: 1px solid #cecece;
-  border-bottom: 1px solid #cecece;
   margin-bottom: 40px;
 }
 
@@ -12,6 +15,22 @@
   align-items: center;
 }
 
+.logoContainer {
+  border: 6px solid var(--company-logo-border-color);
+  border-radius: 10px;
+  padding: 10px;
+  aspect-ratio: 1;
+  margin-bottom: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--company-logo-background);
+}
+
+.companyImage {
+  width: 100%;
+}
+
 @media screen and (max-width: 767px) {
   .companiesRow {
     text-align: center;
@@ -19,7 +38,7 @@
     padding-bottom: 0;
     align-items: center;
   }
-  .companiesContainer .companyLogo {
+  .companiesContainer .companyCol {
     margin-bottom: 100px;
   }
 }

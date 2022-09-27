@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 
+import SessionStyles from "../styles/session/session.module.css";
 import Layout from "../components/common/layout";
 import SEO from "../components/common/seo";
 import Banner from "../components/session/banner";
@@ -24,6 +25,7 @@ export default function Template({ data }) {
         start_time={session.frontmatter.start_time}
         end_time={session.frontmatter.end_time}
         description={session.html}
+        title={session.frontmatter.title}
       />
       {session.frontmatter.companies ? (
         <Companies companies={session.frontmatter.companies} />

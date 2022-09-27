@@ -1,10 +1,10 @@
-import React from "react"
-import Img from "gatsby-image"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+import React from "react";
+import Img from "gatsby-image";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-import DescriptionStyles from "../../styles/session/description.module.css"
+import DescriptionStyles from "../../styles/session/description.module.css";
 
 const Description = ({
   image,
@@ -13,8 +13,9 @@ const Description = ({
   start_time,
   end_time,
   description,
+  title
 }) => (
-  <Container>
+  <Container className={DescriptionStyles.descriptionContainer}>
     <Row>
       <Col xs="12" md="4">
         <div className={DescriptionStyles.logoContainer}>
@@ -32,7 +33,12 @@ const Description = ({
           )}
         </div>
       </Col>
-      <Col xs="12" md="8" className={DescriptionStyles.descriptionContainer}>
+      <Col xs="12" md="8">
+        <div className={DescriptionStyles.title}>
+          <h1>{title}</h1>
+          <div className={`separator`}></div>
+        </div>
+
         <span className={DescriptionStyles.timePlace}>
           {day}, {start_time}-{end_time}
         </span>
@@ -43,6 +49,6 @@ const Description = ({
       </Col>
     </Row>
   </Container>
-)
+);
 
-export default Description
+export default Description;
