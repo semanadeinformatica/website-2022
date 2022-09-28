@@ -1,0 +1,17 @@
+@import "../common/palette.css";
+
+:root {
+  --competition-background: var(--navy-blue);
+
+  /* --regulation-background: var(--yellow);
+    --regulation-text-color: var(--orange); */
+
+  --conditions-background: linear-gradient(
+    180deg,
+    var(--orange) 0%,
+    var(--yellow) 100%
+  );
+
+  --conditions-header-color: var(--navy-blue);
+  --conditions-text-color: var(--navy-blue);
+}

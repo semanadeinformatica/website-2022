@@ -1,16 +1,22 @@
-import React from "react"
-import Col from "react-bootstrap/Col"
+import React from "react";
+import Col from "react-bootstrap/Col";
 
-import CompetitionStyles from "../../styles/competition/competition.module.css"
+import CompetitionStyles from "../../styles/competition/competition.module.css";
 
 const Prize = ({ type, description, title }) => {
-  let prizeName
-  if (type === "first") prizeName = "1º prémio"
-  else if (type === "second") prizeName = "2º prémio"
-  else prizeName = "3º prémio"
+  let prizeName, prizeStyle;
+  if (type === "first")
+    [prizeName, prizeStyle] = ["1º prémio", CompetitionStyles.prizeFirst];
+  else if (type === "second")
+    [prizeName, prizeStyle] = ["2º prémio", CompetitionStyles.prizeSecond];
+  else [prizeName, prizeStyle] = ["3º prémio", CompetitionStyles.prizeThird];
 
   return (
-    <Col md="3" xs="12">
+    <Col
+      md="3"
+      xs="12"
+      className={[CompetitionStyles.prize, prizeStyle].join(" ")}
+    >
       <div className="pl-0">
         <img
           className={CompetitionStyles.squarePrize}
@@ -24,7 +30,7 @@ const Prize = ({ type, description, title }) => {
       <div className={CompetitionStyles.prizeTitle}>{title}</div>
       <div className={CompetitionStyles.prizeDescription}>{description}</div>
     </Col>
-  )
-}
+  );
+};
 
-export default Prize
+export default Prize;
