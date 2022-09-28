@@ -24,7 +24,7 @@ const Description = ({ data, children }) => {
           <Row className={DescriptionStyles.info_container}>
             <Col className={DescriptionStyles.date}>
               <div>Dia {calculateDay(data.day)}</div>
-              <div className={DescriptionStyles.time}>{data.start_time}</div>
+              <div>{data.start_time}</div>
               <div>{data.day}</div>
             </Col>
             <Col>

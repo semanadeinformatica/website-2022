@@ -1,0 +1,9 @@
+@import url("../common/palette.css");
+
+:root {
+  --background-color: var(--color5);
+}
+
+.container {
+  background-color: var(--background-color);
+}
