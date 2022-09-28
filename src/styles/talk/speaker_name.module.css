@@ -1,4 +1,4 @@
-@import "../common/palette.css";
+@import "./design.css";
 
 .container {
   display: flex;
@@ -7,19 +7,19 @@
 
 .name_container {
   margin-right: 1em;
+  color: var(--speaker-name-color);
 }
 
 .name_container hr {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 0.5rem auto 1rem;
   border: 0;
-  background-color: white;
+  background-color: var(--speaker-name-color);
   height: 5px;
   width: 60%;
+  opacity: 1;
 }
 
 .name {
-  color: white;
   font-weight: 600;
   font-size: 2em;
   text-align: center;
@@ -29,7 +29,8 @@
 .occupation {
   font-size: 1.2em;
   padding-bottom: 1em;
-  color: white;
+  font-weight: bold;
+  color: var(--speaker-name-color);
 }
 
 @media (max-width: 991px) {

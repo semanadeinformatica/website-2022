@@ -11,16 +11,30 @@
 .title {
   text-decoration: underline;
   margin-bottom: 0.5em;
-  color: var(--color5);
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: var(--talk-title-color);
 }
 
 .info_container {
   margin-bottom: 2em;
+  color: var(--talk-description-color);
 }
 
 .date {
   text-align: right;
-  color: var(--color5);
+}
+
+.date > :nth-child(1) {
+  color: var(--talk-date-first-line-color);
+}
+
+.date > :nth-child(2) {
+  color: var(--talk-date-second-line-color);
+}
+
+.date > :nth-child(3) {
+  color: var(--talk-date-third-line-color);
 }
 
 .date > div {
@@ -28,7 +42,6 @@
 }
 
 .date > :nth-child(2) {
-  color: var(--color3);
   font-weight: 600;
 }
 
