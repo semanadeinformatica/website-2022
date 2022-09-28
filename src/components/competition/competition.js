@@ -47,16 +47,16 @@ const Competition = () => (
           <Row>
             <Col className={CompetitionStyles.conditionsHeader}>
               <Icon />
-              <h2 className={mainStyles.h2}>Sobre nós</h2>
+              <h2 className={mainStyles.h2}>Regulamento</h2>
             </Col>
           </Row>
           <Row>
             <Col xs="12" className={CompetitionStyles.conditionList}>
               <ul>
                 <li>
-                  A Competição terá início dia 14 de Novembro às 21h30,
-                  decorrendo durante os 3 próximos dias até dia 17 de Novembro
-                  às 15:00.
+                  TODO::: MUDAR ESTE BLOAT A Competição terá início dia 14 de
+                  Novembro às 21h30, decorrendo durante os 3 próximos dias até
+                  dia 17 de Novembro às 15:00.
                 </li>
                 <li>
                   A competição decorrerrá online, através da plataforma
