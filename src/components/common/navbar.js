@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import { NavItem, NavLink } from "react-bootstrap";
+import { NavLink, NavDropdown } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -31,6 +31,28 @@ const NavWrapper = ({ links, className, closeDrawer, children }) => (
   </Nav>
 );
 
+/*TODO: Tudo fodido aqui*/
+const DropdownButton = ({ items, name }) => (
+  <Dropdown title={name}>
+    <div style={{ position: "relative", width: "fit-content" }}>
+      <Dropdown.Toggle className={NavbarStyles.dropdownHeader}>
+        {name}
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu variant="dark" className={NavbarStyles.dropdownChild}>
+        {items.map(({ name, url }) => (
+          <Dropdown.Item
+            key={name}
+            href={url}
+            className={`${NavbarStyles.dropdownLink}`}
+          >
+            {name}
+          </Dropdown.Item>
+        ))}
+      </Dropdown.Menu>
+    </div>
+  </Dropdown>
+);
 export default class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -43,61 +65,48 @@ export default class NavBar extends React.Component {
       isOpen: false
     };
 
-    this.leftLinks = [
+    this.links = [
       {
         url: "/#sobre-nos",
-        text: "Sobre nós",
-        internal: true
+        text: "Sobre nós"
       },
       {
         url: "/#speakers",
-        text: "Speakers",
-        internal: true
+        text: "Speakers"
       },
       {
         url: "/#tickets",
-        text: "Bilhetes",
-        internal: true
+        text: "Bilhetes"
       },
       {
         url: "/#sponsors",
-        text: "Sponsors",
-        internal: true
+        text: "Sponsors"
       },
       {
         url: "/#contactos",
-        text: "Contactos",
-        internal: true
-      }
-    ];
-
-    this.rightLinks = [
-      {
-        url: "https://ctf.sinf.pt",
-        text: "CTF",
-        internal: false
+        text: "Contactos"
       },
       {
         url: "/programa",
-        text: "Programa",
-        internal: true
+        text: "Programa"
       },
       {
         url: "/equipa",
-        text: "Equipa",
-        internal: true
-      },
-      {
-        url: "/competicao-programacao",
-        text: "Competição",
-        internal: true
+        text: "Equipa"
       }
     ];
 
     this.pastEditions = [
-      { url: "https://2020.sinf.pt", year: "2020" },
-      { url: "https://2019.sinf.pt", year: "2019" },
-      { url: "https://2018.sinf.pt", year: "2018" }
+      { url: "https://2020.sinf.pt", name: "2020" },
+      { url: "https://2019.sinf.pt", name: "2019" },
+      { url: "https://2018.sinf.pt", name: "2018" }
+    ];
+
+    this.ativities = [
+      { name: "Palestras", url: "https://2020.sinf.pt" },
+      { name: "CTF", url: "https://2020.sinf.pt" },
+      { name: "Workshops", url: "https://2020.sinf.pt" },
+      { name: "Competição", url: "https://2020.sinf.pt" }
     ];
   }
 
@@ -118,58 +127,44 @@ export default class NavBar extends React.Component {
       <div>
         <Navbar
           fixed={this.fixed ? "top" : ""}
-          expand="lg"
-          className={`py-0 ${NavbarStyles.navbar} ${
-            this.transparent && !this.state.isOpen
-              ? NavbarStyles.noBackground
-              : `py-2`
-          }`}
+          className={`${NavbarStyles.navbar}`}
         >
-          <Navbar.Collapse className="w-100 order-1 order-lg-0 dual-collapse2">
+          <div className={NavbarStyles.topBanner}>
+            {this.logo || this.state.isOpen ? (
+              <Link className="navbar-brand order-0" to="/">
+                <Logo fill="#000" className={NavbarStyles.logo} />
+              </Link>
+            ) : (
+              ""
+            )}
+
+            <div className={NavbarStyles.otherLinks}>
+              <DropdownButton items={this.ativities} name="Atividades" />
+              <DropdownButton
+                items={this.pastEditions}
+                name="Edições Anteriores"
+              />
+            </div>
+
+            {/*
             <NavWrapper
-              className={`${NavbarStyles.background} ml-0 align-items-center`}
-              links={this.leftLinks}
-              closeDrawer={this.closeDrawer}
-            />
-          </Navbar.Collapse>
-          {this.logo || this.state.isOpen ? (
-            <Link className="navbar-brand mx-auto order-0" to="/">
-              <Logo fill="#000" className={NavbarStyles.logo} />
-            </Link>
-          ) : (
-            ""
-          )}
-          <Navbar.Collapse className="w-100 order-3 dual-collapse2 flex-row-reverse">
-            <NavWrapper
-              className={`${NavbarStyles.background} align-items-center`}
-              links={this.rightLinks}
-              closeDrawer={this.closeDrawer}
-            >
-              <Dropdown as={NavItem}>
-                <Dropdown.Toggle
-                  as={NavLink}
-                  className={`${NavbarStyles.navLink} ps-1`}
-                >
-                  &nbsp;Edições anteriores
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  {this.pastEditions.map(({ url, year }) => (
-                    <Dropdown.Item
-                      key={year}
-                      href={url}
-                      className={`${NavbarStyles.dropdownLink}`}
-                    >
-                      {year}
-                    </Dropdown.Item>
-                  ))}
-                </Dropdown.Menu>
-              </Dropdown>
-            </NavWrapper>
-          </Navbar.Collapse>
-          <Navbar.Toggle
-            className={`${NavbarStyles.toggler}`}
-            onClick={this.toggle}
-          />
+                className={`${NavbarStyles.background} align-items-center`}
+                links={this.rightLinks}
+                closeDrawer={this.closeDrawer}
+              >
+                <DropdownButton items={this.ativities} name="Atividades" />
+                <DropdownButton items={this.pastEditions} name="Edições anteriores" />
+
+              </NavWrapper>*/}
+          </div>
+
+          <div className={NavbarStyles.navigation}>
+            {this.links.map(({ url, text }) => (
+              <Nav.Link className={NavbarStyles.navLink} href={url}>
+                {text}
+              </Nav.Link>
+            ))}
+          </div>
         </Navbar>
       </div>
     );

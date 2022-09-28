@@ -1,22 +1,89 @@
 @import "./palette.css";
 
+:root {
+  --background: var(--color5);
+  --copyrigth-text: var(--color1);
+  --location-text: var(--color4);
+}
+
 .footerContainer {
   font-size: 12px;
   flex-shrink: 0;
+  background-color: var(--background);
+  background: var(--background);
+  color: var(--copyrigth-text);
 }
 
-.light {
-  background-color: white;
-  color: var(--color1);
+.topLayer {
+  margin: 1rem 2rem 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.dark {
-  background-color: var(--color5);
+.logo {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+.icon_links {
+  display: flex;
+  gap: 0.8rem;
+}
+.icon_link {
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: none;
   color: white;
+}
+
+.icon_link svg {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.icon_link:hover {
+  opacity: 0.9;
+}
+
+.location {
+  color: var(--location-text);
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.location p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.location svg {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right: 0.5rem;
 }
 
 @media screen and (max-width: 576px) {
   .footerContainer {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footerContainer {
+    font-size: 10px;
+  }
+  .topLayer {
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin: 1rem 2rem 1rem 2rem;
+  }
+  .logo {
+    margin: 1rem;
+  }
+  .icon_links {
+    justify-content: center;
   }
 }
