@@ -1,13 +1,30 @@
 @import url("../common/palette.css");
 
+:root {
+  --title-color: var(--color1);
+  --logo-border-color: var(--color5);
+  --time-place-background: var(--color2);
+  --time-place-color: var(--color5);
+  --description-text-color: var(--color3);
+}
+.descriptionContainer {
+  margin-top: -25px;
+}
+.title {
+  width: fit-content;
+  padding-left: 10%;
+  margin-bottom: 50px;
+  color: var(--title-color);
+}
+
 .logoContainer {
   background-color: white;
-  padding: 40px;
+  padding: 20px;
+  background: linear-gradient(180deg, var(--color4) 0%, var(--color5) 100%);
+  border: 5px solid var(--logo-border-color);
   /* border-radius: 15% 15% 15% 0; */
   border-radius: 0.5rem;
-  border: 0.4rem solid var(--color5);
   position: relative;
-  bottom: 150px;
   text-align: center;
   margin: auto;
   width: 350px;
@@ -20,21 +37,19 @@
   width: 100%;
 }
 
-.descriptionContainer {
-  margin: 40px 0;
-}
-
 .descriptionContainer .timePlace {
-  background-color: var(--color3);
-  border-radius: 10px;
-  padding: 5px 10px;
-  color: white;
+  background-color: var(--time-place-background);
+  border-radius: 3px;
+  padding: 2.5px 20px;
+  color: var(--time-place-color);
+  font-weight: bold;
   margin-left: 5%;
 }
 
 .descriptionContainer .description {
   margin-top: 20px;
   margin-left: 5%;
+  color: var(--description-text-color);
   line-height: 1.2em;
 }
 
