@@ -42,7 +42,6 @@
 }
 
 .date > :nth-child(2) {
-  color: var(--color3);
   font-weight: 600;
 }
 
