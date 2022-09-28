@@ -1,0 +1,25 @@
+@import "../common/palette.css";
+
+:root {
+  --speaker-base-background-color: var(--navy-blue);
+  --speaker-background: linear-gradient(
+    180deg,
+    var(--turquoise) 0%,
+    var(--navy-blue) 50%,
+    var(--speaker-base-background-color) 50%
+  );
+
+  --speaker-name-color: var(--yellow);
+  --speaker-bio-text-color: var(--baby-blue);
+  --speaker-link-background: var(--yellow);
+
+  --talk-background: var(--navy-blue);
+  --talk-title-color: var(--yellow);
+
+  --talk-date-first-line-color: var(--yellow);
+  --talk-date-second-line-color: var(--orange);
+  --talk-date-third-line-color: var(--yellow);
+
+  --talk-description-color: var(--baby-blue);
+  --next-speakers-background: var(--navy-blue);
+}

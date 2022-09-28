@@ -15,13 +15,14 @@ export default function Template({ data }) {
   const { markdownRemark: talk } = data;
   const info = { ...talk.frontmatter };
 
+  console.log(info);
   return (
     <Layout darkFooter>
       <SEO title={info.title} />
       <Container fluid className={TalkStyles.container}>
         <div>
           {info.speakers.map(speaker => (
-            <div key={speaker.name}>{<Speaker data={speaker}></Speaker>}</div>
+            <Speaker key={speaker.name} data={speaker}></Speaker>
           ))}
         </div>
         {info.partnership ? (
