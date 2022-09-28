@@ -11,9 +11,11 @@ const Banner = () => {
 
   return (
     <div className={BannerStyles.banner}>
-      <Icon className={BannerStyles.logo} />
-      <div className={BannerStyles.info_wrapper}>
-        <BasicInfo />
+      <div>
+        <Icon className={BannerStyles.logo} />
+        <div className={BannerStyles.info_wrapper}>
+          <BasicInfo />
+        </div>
       </div>
       <Carousel
         indicators={false}
