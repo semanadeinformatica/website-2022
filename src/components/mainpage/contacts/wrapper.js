@@ -1,14 +1,15 @@
-import React from "react"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import Contacts from "./contacts"
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Contacts from "./contacts";
 
-import ContactStyles from "../../../styles/mainpage/contacts.module.css"
+import ContactStyles from "../../../styles/mainpage/contacts.module.css";
 
 const ContactWrapper = () => {
   return (
-    <Container id="contactos" className={ContactStyles.wrapper} fluid>
+    <Container className={ContactStyles.wrapper} fluid>
+      <a class="anchor" id="contactos"></a>
       <Row
         className={ContactStyles.container + " " + ContactStyles.main_container}
       >
@@ -23,7 +24,7 @@ const ContactWrapper = () => {
         </Col>
       </Row>
     </Container>
-  )
-}
+  );
+};
 
-export default ContactWrapper
+export default ContactWrapper;

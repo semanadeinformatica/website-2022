@@ -11,7 +11,7 @@ const Banner = () => {
 
   return (
     <div className={BannerStyles.banner}>
-      <div>
+      <div style={{ textAlign: "center" }}>
         <Icon className={BannerStyles.logo} />
         <div className={BannerStyles.info_wrapper}>
           <BasicInfo />

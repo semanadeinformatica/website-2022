@@ -9,7 +9,8 @@ import Icon from "../../../images/svg/logo-outline-white.inline.svg";
 
 const About = () => {
   return (
-    <div id="sobre-nos">
+    <div>
+      <a class="anchor" id="sobre-nos"></a>
       <div className={AboutStyles.aboutContainer}>
         <Container>
           <Col className={AboutStyles.aboutHeader}>
