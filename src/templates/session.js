@@ -27,10 +27,8 @@ export default function Template({ data }) {
         description={session.html}
         title={session.frontmatter.title}
       />
-      {session.frontmatter.companies ? (
+      {session.frontmatter.companies && (
         <Companies companies={session.frontmatter.companies} />
-      ) : (
-        ""
       )}
       {session.frontmatter.participants && (
         <Participants participants={session.frontmatter.participants} />
