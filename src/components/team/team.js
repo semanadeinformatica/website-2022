@@ -34,15 +34,7 @@ const Team = ({ name, members, n_per_row }) => {
           odd ^= true;
 
           return row_members.map((value, index) => {
-            const color = !odd ? n_per_row - index - 1 : index;
-            return (
-              <div
-                key={"member" + index}
-                className={TeamStyles.member_container}
-              >
-                <Member data={value} color={color} />
-              </div>
-            );
+            return <Member data={value} key={"member" + index} />;
           });
         })}
       </div>
