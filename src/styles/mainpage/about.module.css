@@ -47,6 +47,11 @@
   width: 40rem;
 }
 
+.countDownContainerTextOnly {
+  padding: 1rem 2rem;
+  width: max-content;
+}
+
 .countDownRow {
   display: block;
   text-align: center;
