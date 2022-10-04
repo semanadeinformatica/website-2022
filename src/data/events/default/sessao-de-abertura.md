@@ -1,7 +1,7 @@
 ---
 title: Sessão de Abertura
 
-day: 2021-11-15
-start_time: 14h30
-end_time: 15h20
+day: 2022-10-31
+start_time: 14h00
+end_time: 14h50
 ---

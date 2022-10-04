@@ -1,14 +1,14 @@
 ---
 title: Sessão de Entrevistas
 img: ../../../images/svg/interviews.svg
-day: 2021-11-16
-start_time: 16h00
-end_time: 18h00
-place: Online Room
+day: 2022-10-31
+start_time: 15h40
+end_time: 17h40
+place: TBD
 path: /sessions/sessao-de-entrevistas
 type: session
 registration: "https://docs.google.com/forms/d/e/1FAIpQLSe1jpgzHH0gKYAVZQpgoPws8ciY7YZkPK2k1pqomi1uj4HnCA/viewform"
-companies:
+companies: # Companies to be filled
   - name: sonae
     link: "https://docs.google.com/forms/d/e/1FAIpQLSe1jpgzHH0gKYAVZQpgoPws8ciY7YZkPK2k1pqomi1uj4HnCA/viewform"
   - name: byside
