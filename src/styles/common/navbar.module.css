@@ -135,11 +135,17 @@
   align-items: center;
   background-color: var(--color5) !important;
   padding: 2rem 0;
+  border-bottom: 3px solid var(--color4);
 }
 
 .navModal .navLink {
   font-size: 1.1rem;
   color: var(--color3) !important;
+}
+
+.navModal .navLink:hover {
+  font-size: 1.1rem;
+  color: var(--color2) !important;
 }
 
 @media (max-width: 720px) {
