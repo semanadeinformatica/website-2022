@@ -16,7 +16,8 @@ const Sponsors = () => {
       goldSponsors.length > 0 ||
       silverSponsors.length > 0 ||
       bronzeSponsors.length > 0) && (
-      <section id="sponsors" className={sponsorsStyles.sponsorsSection}>
+      <section className={sponsorsStyles.sponsorsSection}>
+        <a class="anchor" id="sponsors"></a>
         <h2 className={[mainStyles.h2, sponsorsStyles.h2].join(" ")}>
           OS NOSSOS SPONSORS
           <hr

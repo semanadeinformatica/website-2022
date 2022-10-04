@@ -87,6 +87,7 @@
   border-color: var(--color2) !important;
   padding: 0.3rem 1rem !important;
   font-size: 0.9rem !important;
+  min-width: 140px;
 }
 
 .dropdownChild {
@@ -101,10 +102,12 @@
   right: 0;
   width: fit-content;
   margin: auto !important;
+  min-width: 0 !important;
 }
 
 .dropdownChild > a {
   color: var(--color5) !important;
+  min-width: 100px;
 }
 .dropdownChild > a:hover {
   background: var(--color3) !important;
@@ -120,16 +123,44 @@
   color: var(--color1) !important;
 }
 
-.toggler {
-  position: absolute;
-  right: 0.1rem;
-  border: none !important;
-  box-shadow: none !important;
+.hamburguer {
+  display: none !important;
+}
+.hamburguer > div {
+  height: 38px !important;
+}
+.navModal {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color5) !important;
+  padding: 2rem 0;
+  border-bottom: 3px solid var(--color4);
 }
 
-.toggler span {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-width='1.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+.navModal .navLink {
+  font-size: 1.1rem;
+  color: var(--color3) !important;
 }
+
+.navModal .navLink:hover {
+  font-size: 1.1rem;
+  color: var(--color2) !important;
+}
+
+@media (max-width: 720px) {
+  .navModal {
+    display: flex;
+  }
+  .hamburguer {
+    display: block !important;
+  }
+  .otherLinks,
+  .navigation {
+    display: none;
+  }
+}
+
 @media (max-width: 991px) {
   .navLink:hover,
   .navLinkActive {

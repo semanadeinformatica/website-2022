@@ -1,37 +1,12 @@
 import { Link } from "gatsby";
 import React from "react";
-import { NavLink, NavDropdown } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../../images/svg/logo_sinf_simp.inline.svg";
 import NavbarStyles from "../../styles/common/navbar.module.css";
+import { Divide as Hamburger } from "hamburger-react";
 
-const NavWrapper = ({ links, className, closeDrawer, children }) => (
-  <Nav className={`${className}`}>
-    {links.map(({ internal, url, text }) => (
-      <Nav.Item className="px-2" key={text}>
-        {internal ? (
-          <Link
-            className={`nav-link ${NavbarStyles.navLink}`}
-            activeClassName={NavbarStyles.navLinkActive}
-            to={url}
-            onClick={closeDrawer}
-          >
-            {text}
-          </Link>
-        ) : (
-          <Nav.Link className={NavbarStyles.navLink} href={url}>
-            {text}
-          </Nav.Link>
-        )}
-      </Nav.Item>
-    ))}
-    {children}
-  </Nav>
-);
-
-/*TODO: Tudo fodido aqui*/
 const DropdownButton = ({ items, name }) => (
   <Dropdown title={name}>
     <div style={{ position: "relative", width: "fit-content" }}>
@@ -53,6 +28,7 @@ const DropdownButton = ({ items, name }) => (
     </div>
   </Dropdown>
 );
+
 export default class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -71,20 +47,12 @@ export default class NavBar extends React.Component {
         text: "Sobre nós"
       },
       {
-        url: "/#speakers",
-        text: "Speakers"
-      },
-      {
         url: "/#tickets",
         text: "Bilhetes"
       },
       {
         url: "/#sponsors",
         text: "Sponsors"
-      },
-      {
-        url: "/#contactos",
-        text: "Contactos"
       },
       {
         url: "/programa",
@@ -97,16 +65,17 @@ export default class NavBar extends React.Component {
     ];
 
     this.pastEditions = [
+      { url: "https://2021.sinf.pt", name: "2021" },
       { url: "https://2020.sinf.pt", name: "2020" },
       { url: "https://2019.sinf.pt", name: "2019" },
       { url: "https://2018.sinf.pt", name: "2018" }
     ];
 
     this.ativities = [
-      { name: "Palestras", url: "https://2020.sinf.pt" },
-      { name: "CTF", url: "https://2020.sinf.pt" },
-      { name: "Workshops", url: "https://2020.sinf.pt" },
-      { name: "Competição", url: "https://2020.sinf.pt" }
+      { name: "Palestras", url: "/programa" }, //TODO: Change urls
+      { name: "CTF", url: "/ctf" },
+      { name: "Workshops", url: "/" }, //TODO: WHAT GOES HERE?
+      { name: "Competição", url: "/competicao" }
     ];
   }
 
@@ -116,11 +85,11 @@ export default class NavBar extends React.Component {
     });
   };
 
-  toggle() {
+  toggle = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
-  }
+  };
 
   render() {
     return (
@@ -138,6 +107,10 @@ export default class NavBar extends React.Component {
               ""
             )}
 
+            <div className={NavbarStyles.hamburguer}>
+              <Hamburger toggled={this.state.isOpen} toggle={this.toggle} />
+            </div>
+
             <div className={NavbarStyles.otherLinks}>
               <DropdownButton items={this.ativities} name="Atividades" />
               <DropdownButton
@@ -145,18 +118,31 @@ export default class NavBar extends React.Component {
                 name="Edições Anteriores"
               />
             </div>
-
-            {/*
-            <NavWrapper
-                className={`${NavbarStyles.background} align-items-center`}
-                links={this.rightLinks}
-                closeDrawer={this.closeDrawer}
-              >
-                <DropdownButton items={this.ativities} name="Atividades" />
-                <DropdownButton items={this.pastEditions} name="Edições anteriores" />
-
-              </NavWrapper>*/}
           </div>
+
+          {this.state.isOpen && (
+            <div className={NavbarStyles.navModal}>
+              {this.links.map(({ url, text }) => (
+                <Nav.Link className={NavbarStyles.navLink} href={url}>
+                  {text}
+                </Nav.Link>
+              ))}
+              <h3 class="mt-3">Atividades</h3>
+              {this.ativities.map(({ name, url }) => (
+                <Nav.Link className={NavbarStyles.navLink} href={url}>
+                  {name}
+                </Nav.Link>
+              ))}
+              <h3 class="mt-3">Edições Anteriores</h3>
+              <div style={{ display: "flex", gap: "1.5rem" }}>
+                {this.pastEditions.map(({ name, url }) => (
+                  <Nav.Link className={NavbarStyles.navLink} href={url}>
+                    {name}
+                  </Nav.Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div className={NavbarStyles.navigation}>
             {this.links.map(({ url, text }) => (

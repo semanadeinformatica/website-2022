@@ -4,7 +4,8 @@ import Container from "react-bootstrap/Container";
 import ticketsStyles from "../../styles/mainpage/tickets.module.css";
 
 const Tickets = () => (
-  <section id="tickets" className={ticketsStyles.section}>
+  <section className={ticketsStyles.section}>
+    <a class="anchor" id="tickets"></a>
     <Container>
       <div>
         <Countdown />
