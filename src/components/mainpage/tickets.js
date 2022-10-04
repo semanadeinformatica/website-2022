@@ -7,10 +7,7 @@ const Tickets = () => (
   <section className={ticketsStyles.section}>
     <a class="anchor" id="tickets"></a>
     <Container>
-      <div>
-        <Countdown />
-      </div>
-      <div>
+      <Countdown>
         <a
           className={ticketsStyles.signUp}
           target="_blank"
@@ -19,7 +16,7 @@ const Tickets = () => (
         >
           INSCREVE-TE AQUI!
         </a>
-      </div>
+      </Countdown>
     </Container>
   </section>
 );
