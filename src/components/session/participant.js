@@ -31,7 +31,7 @@ const Participant = ({ participant, color }) => (
         {participant.occupations[0].where}
       </h3>
       <p className={PanelStyles.role}>{participant.role}</p>
-      <p>{participant.bio}</p>
+      <p className={PanelStyles.bio}>{participant.bio}</p>
     </Col>
   </Row>
 );
