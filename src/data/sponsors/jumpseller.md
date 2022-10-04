@@ -1,5 +1,5 @@
 ---
-name: jumpseller
-type: silver
-img: "../../images/sponsors/silver/jumpseller.png"
+name: Jumpseller
+type: bronze
+img: "../../images/sponsors/bronze/Jumpseller.png"
 ---

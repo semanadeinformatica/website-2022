@@ -10,6 +10,7 @@ const Sponsors = () => {
   const goldSponsors = getSponsors(data, "gold");
   const silverSponsors = getSponsors(data, "silver");
   const bronzeSponsors = getSponsors(data, "bronze");
+  console.log(bronzeSponsors);
 
   return (
     (mainSponsors.length > 0 ||
