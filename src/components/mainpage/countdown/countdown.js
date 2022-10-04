@@ -16,7 +16,7 @@ class Countdown extends React.Component {
     super(props);
     this.countDownDate = new Date("Oct 31, 2022 14:30:00").getTime();
     let now = new Date().getTime();
-    let distance = this.countDownDate - now;
+    let distance = Math.max(this.countDownDate - now, 0);
     this.state = {
       days: Math.floor(distance / (1000 * 60 * 60 * 24)),
       hours: Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
@@ -27,7 +27,7 @@ class Countdown extends React.Component {
 
   updateRemainingTime() {
     let now = new Date().getTime();
-    let distance = this.countDownDate - now;
+    let distance = Marh.max(this.countDownDate - now, 0);
     this.setState({
       days: Math.floor(distance / (1000 * 60 * 60 * 24)),
       hours: Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
