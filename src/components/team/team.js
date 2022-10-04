@@ -1,5 +1,5 @@
 import React from "react";
-import Member from "./member";
+import Hover3d from "../utils/hover3d";
 
 import TeamStyles from "../../styles/team/team.module.css";
 
@@ -34,7 +34,7 @@ const Team = ({ name, members, n_per_row }) => {
           odd ^= true;
 
           return row_members.map((value, index) => {
-            return <Member data={value} key={"member" + index} />;
+            return <Hover3d data={value} key={"member" + index} />;
           });
         })}
       </div>
