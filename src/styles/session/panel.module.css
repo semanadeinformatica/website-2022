@@ -1,7 +1,6 @@
 @import url("../common/palette.css");
 
 .wrapper {
-  border-top: 1px solid #cecece;
   padding: 5rem;
 }
 
@@ -12,13 +11,17 @@
 }
 
 .who {
-  color: var(--color5);
+  color: var(--color1);
   font-size: 1.5rem;
 }
 
 .name {
   font-weight: 550;
   font-size: 2rem;
+}
+
+.bio {
+  color: var(--color3);
 }
 
 .participant {

@@ -1,15 +1,8 @@
-import React from "react"
-import classnames from "classnames"
-import Img from "gatsby-image"
+import React from "react";
+import classnames from "classnames";
+import Img from "gatsby-image";
 
-import OverlayStyles from "../../styles/utils/overlay.module.css"
-
-const colors = [
-  OverlayStyles.bg1,
-  OverlayStyles.bg2,
-  OverlayStyles.bg3,
-  OverlayStyles.bg4,
-]
+import OverlayStyles from "../../styles/utils/overlay.module.css";
 
 const MemberOverlay = ({ main, secondary, image, color, border }) => (
   <div
@@ -28,27 +21,13 @@ const MemberOverlay = ({ main, secondary, image, color, border }) => (
         <div className={OverlayStyles.secondaryFiller}></div>
       )}
     </div>
-    <div
-      className={
-        OverlayStyles.main_overlay +
-        " " +
-        OverlayStyles.overlay +
-        " " +
-        colors[color]
-      }
-    >
+    <div className={`${OverlayStyles.main_overlay} ${OverlayStyles.overlay}`}>
       {main}
     </div>
     <div
-      className={
-        OverlayStyles.color_overlay +
-        " " +
-        OverlayStyles.overlay +
-        " " +
-        colors[color]
-      }
+      className={`${OverlayStyles.color_overlay} ${OverlayStyles.overlay}`}
     ></div>
   </div>
-)
+);
 
-export default MemberOverlay
+export default MemberOverlay;

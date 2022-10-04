@@ -20,6 +20,7 @@ participants:
       - what: Lead Software Engineer
         where: Farfetch
     bio: RPA Lead at Farfetch. Former AI Lead at Accenture Braga. 8+ years of Software Development in AI related projects (Chatbots, NLP, OCR, ASR and RPA).
+    role: Participante
 
     img: "../../../images/speakers/Rui_Pires.jpeg"
     twitter: http://twitter.com/ruipiresc
@@ -30,6 +31,7 @@ participants:
       - what: Solutions Architect
         where: Amazon Web Services
     bio: Pedro Costa is a Solutions Architect at AWS Portugal, based in Lisbon. He currently works with SMBs in Portugal to help them innovate and modernize with the Cloud. In his free time he likes to look for new places to photograph and surf.
+    role: Participante
 
     img: "../../../images/speakers/pedro_costa.jpg"
     linkedin: https://www.linkedin.com/in/pedrodcosta/
@@ -44,6 +46,7 @@ participants:
     img: "../../../images/speakers/luis_duarte.jpg"
     email:
     linkedin: https://www.linkedin.com/in/luis-azevedoduarte/
+    role: Participante
 
   - name: José Aleixo
     occupations:
@@ -53,6 +56,7 @@ participants:
     img: "../../../images/speakers/jose_aleixo.jpg"
     email: ""
     linkedin: https://www.linkedin.com/in/josealeixo/
+    role: Participante
 
   - name: Marina Camilo
     occupations:
@@ -63,6 +67,7 @@ participants:
     email: ""
     linkedin: https://www.linkedin.com/in/marina-ff-camilo/
     instagram: https://www.instagram.com/marinaffcamilo/
+    role: Participante
 
   - name: Rui Neves
     occupations:
@@ -72,6 +77,7 @@ participants:
     img: "../../../images/speakers/rui_neves.jpeg"
     email:
     linkedin: https://www.linkedin.com/in/rsneves/
+    role: Participante
 
 day: 2021-11-16
 start_time: 16h10
