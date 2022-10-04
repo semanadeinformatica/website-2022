@@ -21,7 +21,7 @@ const IndexPage = () => (
       <Activities />
       <Tickets />
       <Sponsors />
-      <Container fluid>
+      {/* <Container fluid>
         <Row xs={1} lg={2}>
           <Col>
             <Contacts />
@@ -36,7 +36,7 @@ const IndexPage = () => (
             ></iframe>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </Layout>
   </div>
 );
