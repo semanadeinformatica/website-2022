@@ -6,8 +6,8 @@ import AboutStyles from "../../../styles/mainpage/about.module.css";
 class Countdown extends React.Component {
   constructor(props) {
     super(props);
-    this.startDate = new Date("Oct 4, 2022 16:38:30").getTime();
-    this.endDate = new Date("Oct 4, 2022 16:39:30").getTime();
+    this.startDate = new Date("Oct 31, 2022 14:00:00").getTime();
+    this.endDate = new Date("Nov 2, 2022 20:00:00").getTime();
     this.state = {};
     this.updateRemainingTime();
   }
