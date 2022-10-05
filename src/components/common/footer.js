@@ -1,6 +1,6 @@
 import React from "react";
 //SVG's
-import SinfLogo from "../../images/svg/logo.svg";
+import SinfLogo from "../../images/svg/logo2.svg";
 import InstaIcon from "../../images/svg/instagram.svg";
 import LinkedinIcon from "../../images/svg/linkedin.svg";
 import FacebookIcon from "../../images/svg/facebook.svg";

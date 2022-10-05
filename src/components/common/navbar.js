@@ -3,7 +3,7 @@ import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../../images/svg/logo_sinf_simp.inline.svg";
+import Logo from "../../images/svg/logo_sinf_simp2.inline.svg";
 import NavbarStyles from "../../styles/common/navbar.module.css";
 import { Divide as Hamburger } from "hamburger-react";
 
