@@ -1,14 +1,14 @@
 ---
-title: Programação Competitiva e Concursos de Programação 
+title: Programação Competitiva e Concursos de Programação
 
 speakers:
   - name: Pedro Ribeiro
     occupations:
-      - what: Docente da Universidade do Porto e Investigador no CRACS & INESC TEC
-        where: "Departamento de Ciência de Computadores, FCUP
-    bio: Pedro Ribeiro é um professor do DCC/FCUP apaixonado por algoritmos e pelo seu ensino e divulgação. Enquanto aluno representou com muito sucesso Portugal e a Universidade do Porto nos mais variados concursos de programação nacionais e internacionais. Agora é o principal responsável pelas Olimpíadas Nacionais de Informática, pela edição portuguesa do Bebras - Desafio Internacional de Pensamento Computacional e pela participação das equipas da FCUP em vários concursos de programação, estando envolvido a todos os níveis, desde o científico (ex: é o autor de mais de 100 problemas usados em concursos oficiais) ao organizacional (ex: há mais de 15 anos que organiza a final nacional das Olimpíadas no DCC/FCUP e que lidera a comitiva portuguesa nas Olimpíadas Internacionais)."
+      - what: Docente da UP e Investigador no CRACS & INESC TEC
+        where: Departamento de Ciência de Computadores, FCUP
+    bio: "Pedro Ribeiro é um professor do DCC/FCUP apaixonado por algoritmos e pelo seu ensino e divulgação. Enquanto aluno representou com muito sucesso Portugal e a Universidade do Porto nos mais variados concursos de programação nacionais e internacionais. Agora é o principal responsável pelas Olimpíadas Nacionais de Informática, pela edição portuguesa do Bebras - Desafio Internacional de Pensamento Computacional e pela participação das equipas da FCUP em vários concursos de programação, estando envolvido a todos os níveis, desde o científico (ex: é o autor de mais de 100 problemas usados em concursos oficiais) ao organizacional (ex: há mais de 15 anos que organiza a final nacional das Olimpíadas no DCC/FCUP e que lidera a comitiva portuguesa nas Olimpíadas Internacionais)."
 
-    img: "../../../images/speakers/pedro_ribeiro.jpg"
+    img: "../../../images/speakers/pedro_ribeiro.png"
 
 day: 2022-11-02
 start_time: 14h50
