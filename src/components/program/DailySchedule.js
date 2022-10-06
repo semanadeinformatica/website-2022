@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Tab from "react-bootstrap/Tab";
 
 import SimpleEvent from "./SimpleEvent";
@@ -9,6 +9,11 @@ import programStyles from "../../styles/program/program.module.css";
 
 const DailySchedule = ({ events }) => {
   const [activeTab, setActiveTab] = useState("talks");
+
+  useEffect(() => {
+    let type = new URLSearchParams(window.location.search).get("type");
+    if (["talks", "activities"].includes(type)) toggle(type);
+  }, []);
 
   const toggle = tab => {
     if (activeTab !== tab) setActiveTab(tab);

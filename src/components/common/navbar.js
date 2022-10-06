@@ -3,7 +3,7 @@ import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../../images/svg/logo_sinf_simp2.inline.svg";
+import Logo from "../../images/svg/logo_sinf_simp.inline.svg";
 import NavbarStyles from "../../styles/common/navbar.module.css";
 import { Divide as Hamburger } from "hamburger-react";
 
@@ -72,10 +72,10 @@ export default class NavBar extends React.Component {
     ];
 
     this.ativities = [
-      { name: "Palestras", url: "/programa" }, //TODO: Change urls
-      { name: "CTF", url: "/ctf" },
-      { name: "Workshops", url: "/" }, //TODO: WHAT GOES HERE?
-      { name: "Competição", url: "/competicao" }
+      { name: "Palestras", url: "/programa?type=talks" },
+      { name: "CTF", url: "/ctf" }, //TODO: Change this
+      { name: "Workshops", url: "/programa?type=activities" },
+      { name: "Competição", url: "/competicao-programacao" }
     ];
   }
 
