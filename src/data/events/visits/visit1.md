@@ -7,7 +7,7 @@ end_time: 12h30
 place: TBD
 path: /visits/visit1
 type: visit
-registration: https://www.eventbrite.com/e/sinfswitch-visita-a-switch-tickets-209437421967 # TODO
+registration: soon # TODO
 ---
 
 #### Sobre

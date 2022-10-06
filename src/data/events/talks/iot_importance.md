@@ -8,7 +8,7 @@ speakers:
         where: Bosch Ovar
     bio: Paulo Batalhão possuí mais de 22 anos de experiência em diversas áreas da tecnologia da informação, sendo grande parte como engenheiro de software. Atualmente é Tech Lead na Bosch Ovar em uma equipa backend que trabalha na integração dos chamados “voice services” (Alexa/Google) com os dispositivos de casa inteligente Bosch.
 
-    img: "../../../images/speakers/paulo_batalhao.jpg"
+    img: "../../../images/speakers/paulo_batalhão.jpg"
     linkedin: https://pt.linkedin.com/in/batalhao
 
 day: 2022-11-01

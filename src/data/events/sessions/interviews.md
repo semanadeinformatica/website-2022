@@ -7,7 +7,7 @@ end_time: 17h40
 place: TBD
 path: /sessions/sessao-de-entrevistas
 type: session
-registration: "https://docs.google.com/forms/d/e/1FAIpQLSe1jpgzHH0gKYAVZQpgoPws8ciY7YZkPK2k1pqomi1uj4HnCA/viewform"
+registration: soon
 companies: # Companies to be filled
   - name: sonae
     link: "https://docs.google.com/forms/d/e/1FAIpQLSe1jpgzHH0gKYAVZQpgoPws8ciY7YZkPK2k1pqomi1uj4HnCA/viewform"
