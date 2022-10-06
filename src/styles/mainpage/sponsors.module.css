@@ -75,6 +75,7 @@ hr:not([size]) {
   align-items: center;
   flex-wrap: wrap;
   margin: 1rem 10rem 6rem;
+  gap: 1.5rem;
 }
 
 @media (max-width: 1000px) {

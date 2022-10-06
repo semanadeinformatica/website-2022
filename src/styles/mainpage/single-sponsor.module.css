@@ -6,7 +6,11 @@
 .sponsorContainer {
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem; /* padding: 10px; */
+  border: 6px solid var(--color5);
+  border-radius: 10px;
+  aspect-ratio: 1;
+  background-color: white;
 }
 
 .gold {
