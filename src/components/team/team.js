@@ -21,7 +21,6 @@ const divide_rows = (members, n_per_row) => {
 
 const Team = ({ name, members, n_per_row }) => {
   const member_rows = divide_rows(members, n_per_row);
-  let odd = false;
 
   return (
     <div className={TeamStyles.team_container}>
@@ -31,9 +30,8 @@ const Team = ({ name, members, n_per_row }) => {
       </div>
       <div className={TeamStyles.members_container}>
         {member_rows.map(row_members => {
-          odd ^= true;
-
           return row_members.map((value, index) => {
+            console.log(value.name, value.img);
             return <Member data={value} key={"member" + index} />;
           });
         })}
