@@ -31,7 +31,6 @@ const Team = ({ name, members, n_per_row }) => {
       <div className={TeamStyles.members_container}>
         {member_rows.map(row_members => {
           return row_members.map((value, index) => {
-            console.log(value.name, value.img);
             return <Member data={value} key={"member" + index} />;
           });
         })}
