@@ -1,7 +1,7 @@
 ---
 title: "Tired: Passwords; Wired: Passkeys. Security is a feature."
 speakers:
-  - name: Paulo lopes
+  - name: Paulo Lopes
     occupations:
       - what: Principal Software Engineer
         where: Red Hat

@@ -10,17 +10,18 @@ speakers:
 
     img: "../../../images/speakers/andre_cirne.png"
   - name: Sérgio Rodrigues
+    occupations:
       - what: Finalista do mestrado de Segurança Informática
-      where: FCUP
+        where: FCUP
     bio: Sérgio Rodrigues é finalista do mestrado de Segurança Informática na FCUP. É membro da equipa de CTFs da Universidade do Porto(xSTF) desde 2016 e fez parte da representação portuguesa no European Cyber Security Challenge de 2022.
 
-    img: "../../../images/speakers/default.png"
+    img: "../../../images/speakers/default.jpg"
 
 day: 2022-10-31
 start_time: 15h10
 end_time: 17h40
 place: TBD
-type: workshop
+type: Workshop
 
 path: /workshops/intro_ctf
 ---

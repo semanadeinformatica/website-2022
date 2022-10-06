@@ -8,13 +8,13 @@ speakers:
         where: TBD
     bio: TBD
 
-    img: "TBD"
+    img: "../../../images/speakers/default.jpg"
 
 day: 2022-11-01
 start_time: 14h00
 end_time: TBD
 place: TBD
-type: workshop
+type: Workshop
 
 path: /workshops/unity
 ---

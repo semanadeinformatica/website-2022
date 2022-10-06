@@ -17,7 +17,7 @@ day: 2022-11-02
 start_time: 14h00
 end_time: 17h00
 place: TBD
-type: workshop
+type: Workshop
 
 path: /workshops/react_fundamentals
 ---

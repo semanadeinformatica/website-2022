@@ -6,7 +6,7 @@ start_time: 09h30
 end_time: 12h30
 place: TBD
 path: /visits/visit1
-type: visit
+type: Visit
 registration: soon # TODO
 ---
 

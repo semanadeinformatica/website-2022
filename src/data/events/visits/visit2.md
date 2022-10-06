@@ -1,12 +1,12 @@
 ---
 title: Visita à TBD
-img: ../../../images/svg/interviews.svg
+img: "../../../images/svg/interviews.svg"
 day: 2022-11-02
 start_time: 09h30
 end_time: 12h30
 place: TBD
 path: /visits/visit2
-type: visit
+type: Visit
 registration: soon # TODO
 ---
 
