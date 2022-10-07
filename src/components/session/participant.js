@@ -2,27 +2,17 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import Overlay from "../utils/overlay";
-import LinksList from "../utils/links_list";
-
 import PanelStyles from "../../styles/session/panel.module.css";
+import Hover3d from "../utils/hover3d";
 
 const Participant = ({ participant, color }) => (
   <Row className={PanelStyles.participant}>
     <Col lg="4" md="5">
-      <Overlay
-        image={participant.img.childImageSharp.fluid}
-        color={color}
-        main={
-          <LinksList
-            linkedin={participant.linkedin}
-            twitter={participant.twitter}
-            website={participant.website}
-            github={participant.github}
-            instagram={participant.instagram}
-          />
-        }
+      <Hover3d
+        img={participant.img.childImageSharp.fluid}
+        data={participant}
         border
+        size={250}
       />
     </Col>
     <Col lg="8" md="7">
