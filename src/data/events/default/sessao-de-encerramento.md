@@ -1,7 +1,7 @@
 ---
 title: Sessão de Encerramento
 
-day: 2021-11-17
-start_time: 17h50
-end_time: 18h20
+day: 2022-11-02
+start_time: 18h00
+end_time: 20h00
 ---

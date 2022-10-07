@@ -1,42 +1,40 @@
 ---
 title: Pitch de Oportunidades
 img: ../../../images/svg/pitch.svg
-day: 2021-11-15
-start_time: 18h10
-end_time: 20h10
-place: Online Room
+day: 2022-10-31
+start_time: 18h00
+end_time: 20h00
+place: TBD
 path: /sessions/pitch-de-oportunidades
-registration: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+registration: soon # To be filled
 type: session
 companies:
-  - name: jumpseller
+  - name: accenture
     link: ""
-  - name: glint
+  - name: continental-mabor
     link: ""
-  - name: sonae
+  - name: critical-manufacturing
     link: ""
-  - name: edp
+  - name: devscope
     link: ""
-  - name: byside
-    link: ""
-  - name: switch
-    link: ""
-  - name: critical
+  - name: pwc
     link: ""
   - name: bosch
     link: ""
-  - name: alticelabs
+  - name: adidas
     link: ""
-  - name: agap2it
+  - name: capgemini-engineering
     link: ""
-  - name: itsector
+  - name: deloitte
     link: ""
-  - name: capgemni
+  - name: sonae
     link: ""
-  - name: kpmg
+  - name: vodafone
+    link: ""
+  - name: glint
     link: ""
 ---
 
-Durante o Pitch de Oportunidades, várias empresas farão um pequeno pitch promocional e, ainda que num contexto remoto, são promovidos momentos de networking com as empresas presentes.
+Durante o Pitch de Oportunidades, as várias empresas presentes farão um pequeno pitch promocional e são promovidos momentos de networking com estas.
 
-Interessado numa empresa e gostavas de saber mais? Gostavas de conhecer melhor o panorama empresarial da área? O Pitch de Oportunidades é o momento ideal para isso!
+Interessado numa empresa e gostavas de saber mais? Gostavas de conhecer melhor o panorama empresarial da área? O Pitch de Oportunidades é o momento ideal para tal!

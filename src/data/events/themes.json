@@ -1,17 +1,17 @@
 [
   {
-    "date": "15 Novembro",
-    "theme": "Diversity in Computer Science",
+    "date": "31 Outubro",
+    "theme": "Cyber Security",
     "icon": "network"
   },
   {
-    "date": "16 Novembro",
-    "theme": "Visual Simulation",
+    "date": "1 Novembro",
+    "theme": "Gaming and Interactivity",
     "icon": "diploma"
   },
   {
-    "date": "17 Novembro",
-    "theme": "AI in the real world",
+    "date": "2 Novembro",
+    "theme": "Miscellaneous",
     "icon": "cogs"
   }
 ]
