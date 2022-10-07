@@ -8,7 +8,31 @@ place: TBD
 path: /sessions/sessao-de-networking
 type: session
 registration: soon
-companies: # Companies to be filled
+companies:
+  - name: accenture
+    link: ""
+  - name: continental-mabor
+    link: ""
+  - name: critical-manufacturing
+    link: ""
+  - name: devscope
+    link: ""
+  - name: pwc
+    link: ""
+  - name: bosch
+    link: ""
+  - name: adidas
+    link: ""
+  - name: capgemini-engineering
+    link: ""
+  - name: deloitte
+    link: ""
+  - name: sonae
+    link: ""
+  - name: vodafone
+    link: ""
+  - name: glint
+    link: ""
 ---
 
 A Sessão de Networking e Cocktails será um momento de contacto com direto entre os estudantes e as empresas.
