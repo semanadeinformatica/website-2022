@@ -1,5 +1,5 @@
 ---
-title: TBD
+title: So, you learned Python – Now you’re a Data Scientists, right?
 
 speakers:
   - name: Dubravko Dolic
@@ -17,7 +17,7 @@ end_time: 14h30
 place: TBD
 type: Talk
 
-path: /talks/continental_usecases
+path: /talks/data_science
 ---
 
-TBD
+Since 30 years the field of Data Science undergoes changes in its definitions, tasks and self-understanding. Where are we standing now? How do Data Scientists see themselves after they left the universities and entered industries? Not a structured but a knowledgeable view on the current situation with insights and outlooks on what Data Science is, might be and can achieve.
