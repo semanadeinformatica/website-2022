@@ -27,8 +27,10 @@ const Participant = ({ participant, color }) => (
     </Col>
     <Col lg="8" md="7">
       <h3 className={PanelStyles.who}>
-        <span className={PanelStyles.name}>{participant.name}</span> @{" "}
-        {participant.occupations[0].where}
+        <span className={PanelStyles.name}>{participant.name}</span>
+        {participant.occupations[0].where !== ""
+          ? " @ " + participant.occupations[0].where
+          : ""}
       </h3>
       <p className={PanelStyles.role}>{participant.role}</p>
       <p className={PanelStyles.bio}>{participant.bio}</p>

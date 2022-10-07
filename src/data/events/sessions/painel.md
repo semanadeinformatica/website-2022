@@ -4,12 +4,36 @@ img: ../../../images/svg/panel.svg
 
 # Participants to be decided
 participants:
-  - name: Moderador
+  - name: Participantes a anunciar em breve
     occupations:
-      - what: Cargo
-        where: Empresa
-    bio: Biografia
-    role: Moderador
+      - what: ""
+        where: ""
+    bio: ""
+    role: ""
+
+    img: "../../../images/speakers/default.jpg"
+    linkedin: ""
+    twitter: ""
+    website: ""
+    instagram: ""
+  - name: ""
+    occupations:
+      - what: ""
+        where: ""
+    bio: ""
+    role: ""
+
+    img: "../../../images/speakers/default.jpg"
+    linkedin: ""
+    twitter: ""
+    website: ""
+    instagram: ""
+  - name: ""
+    occupations:
+      - what: ""
+        where: ""
+    bio: ""
+    role: ""
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
