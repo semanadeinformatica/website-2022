@@ -8,17 +8,21 @@ place: TBD
 path: /sessions/sessao-de-entrevistas
 type: session
 registration: soon
-companies: # Companies to be filled
-  - name: sonae
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSe1jpgzHH0gKYAVZQpgoPws8ciY7YZkPK2k1pqomi1uj4HnCA/viewform"
-  - name: byside
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSe1jpgzHH0gKYAVZQpgoPws8ciY7YZkPK2k1pqomi1uj4HnCA/viewform"
-  - name: switch
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSe1jpgzHH0gKYAVZQpgoPws8ciY7YZkPK2k1pqomi1uj4HnCA/viewform"
-  - name: critical
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSe1jpgzHH0gKYAVZQpgoPws8ciY7YZkPK2k1pqomi1uj4HnCA/viewform"
+companies:
+  - name: accenture
+    link: ""
+  - name: continental-mabor
+    link: ""
+  - name: critical-manufacturing
+    link: ""
+  - name: devscope
+    link: ""
+  - name: pwc
+    link: ""
   - name: bosch
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSe1jpgzHH0gKYAVZQpgoPws8ciY7YZkPK2k1pqomi1uj4HnCA/viewform"
+    link: ""
+  - name: arquiconsult
+    link: ""
 ---
 
 A Sessão de Entrevistas será um momento de contacto com direto entre os estudantes e as empresas.
