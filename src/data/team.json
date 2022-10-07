@@ -64,7 +64,9 @@
       },
       {
         "name": "Marta Mariz",
-        "img": "../images/team/marta-mariz.jpg"
+        "img": "../images/team/marta-mariz.jpg",
+        "linkedin": "https://www.linkedin.com/in/marta-mariz-51a67a22a/",
+        "github": "https://github.com/MartaMariz"
       }
     ]
   },
@@ -211,6 +213,17 @@
         "github": "https://github.com/bdmendes"
       },
       {
+        "name": "Nuno Pereira",
+        "img": "../images/team/nuno-pereira.jpg",
+        "github": "https://github.com/Naapperas"
+      },
+      {
+        "name": "Mariana Teixeira",
+        "img": "../images/team/mariana-teixeira.jpg",
+        "linkedin": "https://www.linkedin.com/in/mariana-teixeira-baa658219/",
+        "github": "https://github.com/marianalt"
+      },
+      {
         "name": "Guilherme Almeida",
         "img": "../images/team/guilherme-almeida.jpg",
         "linkedin": "https://www.linkedin.com/in/guilherme-almeida-5007931b3",
@@ -220,6 +233,16 @@
         "name": "Luís Sousa",
         "img": "../images/team/luis-sousa.jpg",
         "github": "https://github.com/2002luis"
+      },
+      {
+        "name": "Carlos Sousa",
+        "img": "../images/team/carlos-sousa.jpg",
+        "github": "https://github.com/CarlosMealha"
+      },
+      {
+        "name": "Francisco Serra",
+        "img": "../images/team/francisco-serra.jpg",
+        "linkedin": "https://www.linkedin.com/in/francisco-pimentel-serra/"
       }
     ]
   },
@@ -241,12 +264,6 @@
         "img": "../images/team/guilherme-almeida.jpg",
         "linkedin": "https://www.linkedin.com/in/guilherme-almeida-5007931b3",
         "github": "https://github.com/gui1612"
-      },
-      {
-        "name": "José Martins",
-        "img": "../images/team/jose-martins.jpg",
-        "linkedin": "https://www.linkedin.com/in/jos%C3%A9-martins-35a809241",
-        "github": "https://github.com/ZeAntonioM"
       },
       {
         "name": "José Luís Rodrigues",
@@ -271,6 +288,12 @@
         "img": "../images/team/mariana-teixeira.jpg",
         "linkedin": "https://www.linkedin.com/in/mariana-teixeira-baa658219/",
         "github": "https://github.com/marianalt"
+      },
+      {
+        "name": "José Martins",
+        "img": "../images/team/jose-martins.jpg",
+        "linkedin": "https://www.linkedin.com/in/jos%C3%A9-martins-35a809241",
+        "github": "https://github.com/ZeAntonioM"
       }
     ]
   }
