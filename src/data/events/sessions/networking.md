@@ -9,29 +9,27 @@ path: /sessions/sessao-de-networking
 type: session
 registration: soon
 companies:
-  - name: accenture
+  - name: Accenture
     link: ""
-  - name: continental-mabor
+  - name: Continental Mabor
     link: ""
-  - name: critical-manufacturing
+  - name: Critical Manufacturing
     link: ""
-  - name: devscope
+  - name: DevScope
     link: ""
-  - name: pwc
+  - name: PwC
     link: ""
-  - name: bosch
+  - name: Bosch
     link: ""
-  - name: adidas
+  - name: Adidas
     link: ""
-  - name: capgemini-engineering
+  - name: Capgemini Engineering
     link: ""
-  - name: deloitte
+  - name: Deloitte
     link: ""
-  - name: sonae
+  - name: Vodafone
     link: ""
-  - name: vodafone
-    link: ""
-  - name: glint
+  - name: Glintt
     link: ""
 ---
 
