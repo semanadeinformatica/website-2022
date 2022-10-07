@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import ActivitiesStyles from "../../../styles/mainpage/activities.module.css";
 
 const Activities = () => {
@@ -9,31 +10,21 @@ const Activities = () => {
       </h2>
       <div className={ActivitiesStyles.gallery}>
         <div>
-          <img src="/og_thumbnail.png" alt="workshops" />
-          <a href="/programa" rel="noopener noreferrer" target="_blank">
-            WORKSHOPS
-          </a>
+          <img src="/workshops.png" alt="workshops" />
+          <Link to="/programa?type=activities">WORKSHOPS</Link>
         </div>
         <div>
-          <img src="/og_thumbnail.png" alt="palestras" />
-          <a href="/programa" rel="noopener noreferrer" target="_blank">
-            PALESTRAS
-          </a>
+          <img src="/palestras.png" alt="palestras" />
+          <Link to="/programa?type=talks">PALESTRAS</Link>
         </div>
         <div>
-          <img src="/og_thumbnail.png" alt="Competição de programação" />
+          <img src="/competicao.png" alt="Competição de programação" />
+          <Link to="/competicao-programacao">COMPETIÇÃO</Link>
+        </div>
+        <div>
+          <img src="/ctf.png" alt="CTF" />
           <a
-            href="/competicao-programacao"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            COMPETIÇÃO
-          </a>
-        </div>
-        <div>
-          <img src="/og_thumbnail.png" alt="CTF" />
-          <a
-            href="https://ni.fe.up.pt/"
+            href="https://ctf.sinf.pt"
             rel="noopener noreferrer"
             target="_blank"
           >

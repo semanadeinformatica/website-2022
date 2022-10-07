@@ -73,7 +73,7 @@ export default class NavBar extends React.Component {
 
     this.ativities = [
       { name: "Palestras", url: "/programa?type=talks" },
-      { name: "CTF", url: "/ctf" }, //TODO: Change this
+      { name: "CTF", url: "https://ctf.sinf.pt" },
       { name: "Workshops", url: "/programa?type=activities" },
       { name: "Competição", url: "/competicao-programacao" }
     ];
@@ -146,9 +146,9 @@ export default class NavBar extends React.Component {
 
           <div className={NavbarStyles.navigation}>
             {this.links.map(({ url, text }) => (
-              <Nav.Link className={NavbarStyles.navLink} href={url}>
+              <Link to={url} className={NavbarStyles.navLink}>
                 {text}
-              </Nav.Link>
+              </Link>
             ))}
           </div>
         </Navbar>

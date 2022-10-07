@@ -28,7 +28,7 @@ const links = [
   {
     // EMAIL
     icon: <MailIcon />,
-    href: "https://www.linkedin.com/company/sinffeup/"
+    href: "mailto:geral@sinf.pt"
   }
 ];
 
@@ -38,7 +38,13 @@ const Footer = ({ darkMode }) => (
       <div class={FooterStyles.social}>
         <div class={FooterStyles.icon_links}>
           {links.map(({ icon, href }, index) => (
-            <a href={href} className={FooterStyles.icon_link} key={index}>
+            <a
+              href={href}
+              className={FooterStyles.icon_link}
+              key={index}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               {icon}
             </a>
           ))}
