@@ -72,10 +72,10 @@ export default class NavBar extends React.Component {
     ];
 
     this.ativities = [
-      { name: "Palestras", url: "/programa" }, //TODO: Change urls
-      { name: "CTF", url: "/ctf" },
-      { name: "Workshops", url: "/" }, //TODO: WHAT GOES HERE?
-      { name: "Competição", url: "/competicao" }
+      { name: "Palestras", url: "/programa?type=talks" },
+      { name: "CTF", url: "/ctf" }, //TODO: Change this
+      { name: "Workshops", url: "/programa?type=activities" },
+      { name: "Competição", url: "/competicao-programacao" }
     ];
   }
 

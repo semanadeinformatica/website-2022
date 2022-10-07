@@ -10,28 +10,20 @@ const Activities = () => {
       <div className={ActivitiesStyles.gallery}>
         <div>
           <img src="/og_thumbnail.png" alt="workshops" />
-          <a
-            href="https://ni.fe.up.pt/programa"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+          <a href="/programa" rel="noopener noreferrer" target="_blank">
             WORKSHOPS
           </a>
         </div>
         <div>
           <img src="/og_thumbnail.png" alt="palestras" />
-          <a
-            href="https://ni.fe.up.pt/programa"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+          <a href="/programa" rel="noopener noreferrer" target="_blank">
             PALESTRAS
           </a>
         </div>
         <div>
           <img src="/og_thumbnail.png" alt="Competição de programação" />
           <a
-            href="https://ni.fe.up.pt/"
+            href="/competicao-programacao"
             rel="noopener noreferrer"
             target="_blank"
           >

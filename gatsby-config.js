@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Semana de informática`,
-    description: `A Semana de Informática é uma conferência remota a decorrer nos dias 15 a 17 de Novembro, com sede na Faculdade de Engenharia da Universidade do Porto.`,
+    description: `A Semana de Informática é uma conferência remota a decorrer de 31 de outubro a 2 de novembro, com sede na Faculdade de Engenharia da Universidade do Porto.`,
     author: `NIAEFEUP, https://niaefeup.pt`
   },
   plugins: [
@@ -36,8 +36,8 @@ module.exports = {
         name: `Semana de Informática`,
         short_name: `SINF`,
         start_url: `/`,
-        background_color: `#0C0044`,
-        theme_color: `#0C0044`,
+        background_color: `#023047`,
+        theme_color: `#023047`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png` // This path is relative to the root of the site.
       }

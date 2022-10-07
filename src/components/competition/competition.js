@@ -54,17 +54,17 @@ const Competition = () => (
             <Col xs="12" className={CompetitionStyles.conditionList}>
               <ul>
                 <li>
-                  TODO::: MUDAR ESTE BLOAT A Competição terá início dia 14 de
-                  Novembro às 21h30, decorrendo durante os 3 próximos dias até
-                  dia 17 de Novembro às 15:00.
+                  A Competição terá início dia 31 de Outubro às 21h30,
+                  decorrendo durante os 3 próximos dias até dia 2 de Novembro às
+                  15:00.
                 </li>
                 <li>
                   A competição decorrerrá online, através da plataforma
                   HackerRank.
                 </li>
                 <li>
-                  Serão lançados diariamente 2 novos desafios, nos dias 14, 15 e
-                  16 de novembro às 21h30.
+                  Serão lançados diariamente 2 novos desafios, nos dias 31, 1 e
+                  2 de novembro às 21h30.
                 </li>
                 <li>
                   Apenas estarás habilitado aos prémios caso tenhas tenhas

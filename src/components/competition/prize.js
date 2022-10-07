@@ -20,15 +20,18 @@ const Prize = ({ type, description, title }) => {
       <div className="pl-0">
         <img
           className={CompetitionStyles.squarePrize}
-          src={require("../../images/competition/" + type + ".png")}
+          //src={require("../../images/competition/" + type + ".png")} //uncomment later
+          src={require("../../images/svg/suprise_block.png")}
           height="280px"
           width="280px"
           alt="Prize"
         />
       </div>
+      {/* 
       <div className={CompetitionStyles.prizeType}>{prizeName}</div>
       <div className={CompetitionStyles.prizeTitle}>{title}</div>
       <div className={CompetitionStyles.prizeDescription}>{description}</div>
+      */}
     </Col>
   );
 };
