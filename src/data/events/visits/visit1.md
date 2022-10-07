@@ -1,11 +1,11 @@
 ---
-title: Visita à TBD
+title: #Visita à Critical Manufacturing
 img: ../../../images/svg/interviews.svg
 day: 2022-10-31
 start_time: 09h30
 end_time: 12h30
-place: TBD
-path: /visits/visit1
+place: Visita à Critical Manufacturing
+path: ""
 type: Visit
 registration: soon # TODO
 ---

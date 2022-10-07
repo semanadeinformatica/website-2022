@@ -34,19 +34,21 @@ const CommonEvent = ({ color, event }) => {
       />
       <div>
         <h3 className={eventsStyles.title}>
-          <Link to={path}>
-            {path.includes("workshops") && "Workshop: "}{" "}
-            {path.includes("panels") && "Painel: "}{" "}
-            <span
-              className={
-                !path.match(/sessions|visits/)
-                  ? eventsStyles.eventTitle
-                  : undefined
-              }
-            >
-              {title}
-            </span>
-          </Link>
+          {path !== "" && (
+            <Link to={path}>
+              {path.includes("workshops") && "Workshop: "}{" "}
+              {path.includes("panels") && "Painel: "}{" "}
+              <span
+                className={
+                  !path.match(/sessions|visits/)
+                    ? eventsStyles.eventTitle
+                    : undefined
+                }
+              >
+                {title}
+              </span>
+            </Link>
+          )}
         </h3>
         {speakers && <Speakers speakers={speakers} path={path} />}
         <TimePlace start_time={start_time} end_time={end_time} place={place} />
