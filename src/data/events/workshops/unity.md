@@ -15,10 +15,11 @@ speakers:
 day: 2022-11-01
 start_time: 14h00
 end_time: 16h30
-place: TBD
+place: Sala por anunciar
 type: Workshop
 
 path: /workshops/unity
+registration: https://www.eventbrite.pt/e/bilhetes-sinf-2022-workshop-physics-based-character-movement-for-dummies-438720062517
 ---
 
 Vem aprender como se constrói o movimento de uma personagem nos jogos 3D, utilizando uma abordagem que favorece a UX do jogador e aproveita a simulação física já existente no motor de jogo Unity.

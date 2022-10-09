@@ -15,7 +15,7 @@ speakers:
 day: 2022-10-31
 start_time: 16h20
 end_time: 16h50
-place: TBD
+place: Sala por anunciar
 type: Talk
 
 path: /talks/amazon_hacked

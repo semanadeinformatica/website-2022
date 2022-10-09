@@ -20,10 +20,11 @@ speakers:
 day: 2022-10-31
 start_time: 15h10
 end_time: 17h40
-place: TBD
+place: Sala por anunciar
 type: Workshop
 
 path: /workshops/intro_ctf
+registration: https://www.eventbrite.pt/e/bilhetes-sinf-2022-workshop-ctf-438708909157
 ---
 
 Capture The Flag são competições para entusiastas de segurança informática. Neste workshop irás ser introduzido ao mundos dos CTFs, aprederás alguns conceitos básicos que te irão ajudar a resolver os teus primeiros desafios e de que forma podes utilizar estas competições para desenvolver capacidades em segurança informática.
