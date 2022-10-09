@@ -14,7 +14,7 @@ speakers:
 day: 2022-10-31
 start_time: 15h10
 end_time: 15h40
-place: TBD
+place: Sala por anunciar
 type: Talk
 
 path: /talks/passwords
