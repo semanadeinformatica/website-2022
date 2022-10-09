@@ -14,7 +14,7 @@ speakers:
 day: 2022-11-01
 start_time: 14h00
 end_time: 14h30
-place: TBD
+place: Sala por anunciar
 type: Talk
 
 path: /talks/portugal_videogames

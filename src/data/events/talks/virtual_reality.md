@@ -13,7 +13,7 @@ speakers:
 day: 2022-11-01
 start_time: 16h00
 end_time: 16h30
-place: TBD
+place: Sala por anunciar
 type: Talk
 
 path: /talks/virtual_reality

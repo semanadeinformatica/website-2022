@@ -4,7 +4,7 @@ img: ../../../images/svg/pitch.svg
 day: 2022-10-31
 start_time: 18h00
 end_time: 20h00
-place: TBD
+place: Sala por anunciar
 path: /sessions/pitch-de-oportunidades
 registration: soon # To be filled
 type: session

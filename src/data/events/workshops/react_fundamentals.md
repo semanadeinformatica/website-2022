@@ -16,10 +16,11 @@ speakers:
 day: 2022-11-02
 start_time: 14h00
 end_time: 17h00
-place: TBD
+place: Sala por anunciar
 type: Workshop
 
 path: /workshops/react_fundamentals
+registration: https://www.eventbrite.pt/e/bilhetes-sinf-2022-workshop-de-fundamentos-de-react-438724495777
 ---
 
 Neste workshop os participantes aprenderão React (reactjs.org) desde os seus fundamentos, incluindo: criação de componentes; renderização dos componentes no ecrã; gestão de estado; chamadas a serviços externos (APIs); entre outros.

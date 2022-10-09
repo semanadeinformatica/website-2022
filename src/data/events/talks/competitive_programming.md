@@ -15,7 +15,7 @@ speakers:
 day: 2022-11-02
 start_time: 14h50
 end_time: 15h20
-place: TBD
+place: Sala por anunciar
 type: Talk
 
 path: /talks/competitive_programming
