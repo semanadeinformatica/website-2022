@@ -4,36 +4,36 @@ img: ../../../images/svg/panel.svg
 
 # Participants to be decided
 participants:
-  - name: "Participante"
+  - name: Participantes a anunciar em breve
     occupations:
       - what: ""
         where: ""
     bio: ""
-    role: "A anunciar em breve"
+    role: ""
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
     twitter: ""
     website: ""
     instagram: ""
-  - name: "Participante"
+  - name: ""
     occupations:
       - what: ""
         where: ""
     bio: ""
-    role: "A anunciar em breve"
+    role: ""
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
     twitter: ""
     website: ""
     instagram: ""
-  - name: "Participante"
+  - name: ""
     occupations:
       - what: ""
         where: ""
     bio: ""
-    role: "A anunciar em breve"
+    role: ""
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""

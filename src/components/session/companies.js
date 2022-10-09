@@ -36,7 +36,7 @@ const Companies = ({ companies }) => {
       element => element.node.frontmatter.name === company.name
     )
   }));
-  console.log(companiesData);
+
   return (
     <div className={CompaniesStyles.companiesContainer}>
       <Container>

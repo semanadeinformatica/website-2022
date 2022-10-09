@@ -15,7 +15,7 @@ const Participant = ({ participant, color }) => (
         size={250}
       />
     </Col>
-    <Col lg="8" md="7" className={PanelStyles.participantInfo}>
+    <Col lg="8" md="7">
       <h3 className={PanelStyles.who}>
         <span className={PanelStyles.name}>{participant.name}</span>
         {participant.occupations[0].where !== ""

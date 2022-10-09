@@ -9,19 +9,19 @@ path: /sessions/sessao-de-entrevistas
 type: session
 registration: soon
 companies:
-  - name: Accenture
+  - name: accenture
     link: ""
-  - name: Continental Mabor
+  - name: continental-mabor
     link: ""
-  - name: Critical Manufacturing
+  - name: critical-manufacturing
     link: ""
-  - name: DevScope
+  - name: devscope
     link: ""
-  - name: PwC
+  - name: pwc
     link: ""
-  - name: Bosch
+  - name: bosch
     link: ""
-  - name: Arquiconsult
+  - name: arquiconsult
     link: ""
 ---
 

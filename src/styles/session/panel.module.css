@@ -28,13 +28,6 @@
   margin-bottom: 3rem;
 }
 
-.participantInfo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 2rem;
-}
-
 @media (max-width: 500px) {
   .container {
     padding: 0;

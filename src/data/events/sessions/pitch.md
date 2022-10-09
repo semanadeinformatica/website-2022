@@ -9,27 +9,29 @@ path: /sessions/pitch-de-oportunidades
 registration: soon # To be filled
 type: session
 companies:
-  - name: Accenture
+  - name: accenture
     link: ""
-  - name: Continental Mabor
+  - name: continental-mabor
     link: ""
-  - name: Critical Manufacturing
+  - name: critical-manufacturing
     link: ""
-  - name: DevScope
+  - name: devscope
     link: ""
-  - name: PwC
+  - name: pwc
     link: ""
-  - name: Bosch
+  - name: bosch
     link: ""
-  - name: Adidas
+  - name: adidas
     link: ""
-  - name: Capgemini Engineering
+  - name: capgemini-engineering
     link: ""
-  - name: Deloitte
+  - name: deloitte
     link: ""
-  - name: Vodafone
+  - name: sonae
     link: ""
-  - name: Glintt
+  - name: vodafone
+    link: ""
+  - name: glint
     link: ""
 ---
 
