@@ -1,0 +1,7 @@
+@import "../common/palette.css";
+
+.outlineIcon path:first-child {
+  fill: none !important;
+  stroke: var(--color1);
+  stroke-width: 20px;
+}
