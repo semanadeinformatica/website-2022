@@ -76,7 +76,7 @@ export default class NavBar extends React.Component {
       { name: "CTF", url: "https://ctf.sinf.pt" },
       { name: "Workshops", url: "/programa?type=activities" },
       { name: "Competição", url: "/competicao-programacao" },
-      { name: "Sessão de Networking", url: "/sessions/sessao-de-networking" }
+      { name: "Sessão de cocktails", url: "/sessions/sessao-de-networking" }
     ];
   }
 
