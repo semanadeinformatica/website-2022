@@ -2,16 +2,16 @@
   {
     "date": "31 Outubro",
     "theme": "Cyber Security",
-    "icon": "network"
+    "icon": "day1"
   },
   {
     "date": "1 Novembro",
     "theme": "Gaming and Interactivity",
-    "icon": "diploma"
+    "icon": "day2"
   },
   {
     "date": "2 Novembro",
     "theme": "Miscellaneous",
-    "icon": "cogs"
+    "icon": "day3"
   }
 ]
