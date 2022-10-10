@@ -30,7 +30,6 @@ const CommonEvent = ({ color, event }) => {
         id={`toggleShowAll-${title}`}
         showAll={showAll}
         setShowAll={setShowAll}
-        backgroundColor={color}
       />
       <div>
         <h3 className={eventsStyles.title}>

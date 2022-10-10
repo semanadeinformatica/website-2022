@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import "../common/palette.css";
 
+:root {
+  --event-info-icon-background: #ffa000;
+}
+
 .label {
   background-color: var(--color0);
 }
@@ -72,7 +76,7 @@
 .simpleEvent:after {
   position: absolute;
   content: "";
-  background-color: var(--color2);
+  background: var(--event-info-icon-background);
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 5px;
@@ -83,7 +87,7 @@
 .simpleEvent:before {
   position: absolute;
   content: attr(data-date);
-  color: var(--color1);
+  color: var(--event-info-icon-background);
   top: unset;
   left: -8rem;
 }
@@ -191,6 +195,8 @@
   justify-content: center;
   position: absolute;
   left: -3.7rem;
+  background-color: var(--color2);
+  background: var(--color2);
 }
 
 .description {
