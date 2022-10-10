@@ -76,7 +76,7 @@
 .simpleEvent:after {
   position: absolute;
   content: "";
-  background-color: var(--event-info-icon-background);
+  background: var(--event-info-icon-background);
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 5px;
