@@ -1,9 +1,9 @@
-import React from "react"
-import { FaInfo, FaTimes } from "react-icons/fa"
+import React from "react";
+import { FaInfo, FaTimes } from "react-icons/fa";
 
-import eventsStyles from "../../styles/program/events.module.css"
+import eventsStyles from "../../styles/program/events.module.css";
 
-const DescriptionToggler = ({ id, showAll, setShowAll, backgroundColor }) => (
+const DescriptionToggler = ({ id, showAll, setShowAll }) => (
   <div className={eventsStyles.toggler}>
     <input
       type="checkbox"
@@ -11,7 +11,7 @@ const DescriptionToggler = ({ id, showAll, setShowAll, backgroundColor }) => (
       onChange={e => setShowAll(e.target.checked)}
       id={id}
     />
-    <label htmlFor={id} style={{ backgroundColor }}>
+    <label htmlFor={id}>
       <div className={eventsStyles.icons}>
         <FaTimes
           color="white"
@@ -26,6 +26,6 @@ const DescriptionToggler = ({ id, showAll, setShowAll, backgroundColor }) => (
       </div>
     </label>
   </div>
-)
+);
 
-export default DescriptionToggler
+export default DescriptionToggler;

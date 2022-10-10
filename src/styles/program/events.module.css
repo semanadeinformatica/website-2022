@@ -72,7 +72,7 @@
 .simpleEvent:after {
   position: absolute;
   content: "";
-  background-color: var(--color2);
+  background-color: #ffa000;
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 5px;
@@ -83,7 +83,7 @@
 .simpleEvent:before {
   position: absolute;
   content: attr(data-date);
-  color: var(--color1);
+  color: #ffa000;
   top: unset;
   left: -8rem;
 }
@@ -191,6 +191,8 @@
   justify-content: center;
   position: absolute;
   left: -3.7rem;
+  background-color: var(--color2);
+  background: var(--color2);
 }
 
 .description {
