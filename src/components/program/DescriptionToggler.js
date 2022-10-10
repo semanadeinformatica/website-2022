@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInfo, FaTimes } from "react-icons/fa";
 
-import eventsStyles from "../../styles/program/events.module.css";
+import * as eventsStyles from "../../styles/program/events.module.css";
 
 const DescriptionToggler = ({ id, showAll, setShowAll }) => (
   <div className={eventsStyles.toggler}>

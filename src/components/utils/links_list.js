@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import WebIcon from "../../images/svg/web_icon.inline.svg";
 
-import LinkStyles from "../../styles/utils/link_list.module.css";
+import * as LinkStyles from "../../styles/utils/link_list.module.css";
 
 const LinksList = ({ linkedin, twitter, github, website, instagram }) => (
   <div className={LinkStyles.links}>

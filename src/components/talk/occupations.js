@@ -1,5 +1,5 @@
 import React from "react";
-import SpeakerNameStyles from "../../styles/talk/speaker_name.module.css";
+import * as SpeakerNameStyles from "../../styles/talk/speaker_name.module.css";
 
 const Occupations = ({ occupations }) => {
   return (

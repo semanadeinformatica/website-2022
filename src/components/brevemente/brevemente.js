@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import SoonStyles from "../../styles/soon.module.css"
-import Icon from "../../images/svg/gradient-outline.inline.svg"
+import React from "react";
+import { Link } from "gatsby";
+import * as SoonStyles from "../../styles/soon.module.css";
+import Icon from "../../images/svg/gradient-outline.inline.svg";
 
 const Brevemente = () => {
   return (
@@ -12,7 +12,7 @@ const Brevemente = () => {
         Voltar
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Brevemente
+export default Brevemente;

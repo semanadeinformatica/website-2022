@@ -1,24 +1,24 @@
-import React from "react"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import SoonStyles from "../../styles/soon.module.css"
-import { FaLinkedin, FaFacebookSquare, FaEnvelope } from "react-icons/fa"
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import * as SoonStyles from "../../styles/soon.module.css";
+import { FaLinkedin, FaFacebookSquare, FaEnvelope } from "react-icons/fa";
 
 const links = [
   {
     icon: <FaLinkedin />,
-    href: "https://www.linkedin.com/company/sinffeup/",
+    href: "https://www.linkedin.com/company/sinffeup/"
   },
   {
     icon: <FaFacebookSquare />,
-    href: "https://facebook.com/sinfFEUP",
+    href: "https://facebook.com/sinfFEUP"
   },
   {
     icon: <FaEnvelope />,
-    href: "mailto:geral@sinf.pt",
-  },
-]
+    href: "mailto:geral@sinf.pt"
+  }
+];
 
 const Info = () => {
   return (
@@ -45,7 +45,7 @@ const Info = () => {
         </Col>
       </Row>
     </Container>
-  )
-}
+  );
+};
 
-export default Info
+export default Info;

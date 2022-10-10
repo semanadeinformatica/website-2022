@@ -1,11 +1,11 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
-import Occupations from "./occupations"
-import Overlay from "../utils/overlay"
-import LinksList from "../utils/links_list"
+import Occupations from "./occupations";
+import Overlay from "../utils/overlay";
+import LinksList from "../utils/links_list";
 
-import SpeakerStyle from "../../styles/speakers/single-speaker.module.css"
+import * as SpeakerStyle from "../../styles/speakers/single-speaker.module.css";
 
 const SingleSpeaker = ({ speaker, color }) => (
   <div className={SpeakerStyle.member_container + " mb-3"} key={speaker.name}>
@@ -28,6 +28,6 @@ const SingleSpeaker = ({ speaker, color }) => (
     </div>
     <Occupations occupations={speaker.occupations} />
   </div>
-)
+);
 
-export default SingleSpeaker
+export default SingleSpeaker;

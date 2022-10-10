@@ -1,18 +1,18 @@
-import React from "react"
+import React from "react";
 
-import TimePlace from "./TimePlace"
-import icons from "../utils/icons"
+import TimePlace from "./TimePlace";
+import icons from "../utils/icons";
 
-import eventsStyles from "../../styles/program/events.module.css"
+import * as eventsStyles from "../../styles/program/events.module.css";
 
 const SimpleEvent = ({
-  event: { title, start_time, end_time, place, icon },
+  event: { title, start_time, end_time, place, icon }
 }) => {
   const className = icon
     ? [eventsStyles.main, eventsStyles.simpleEvent, eventsStyles.withIcon].join(
         " "
       )
-    : [eventsStyles.main, eventsStyles.simpleEvent].join(" ")
+    : [eventsStyles.main, eventsStyles.simpleEvent].join(" ");
   return (
     <div data-date={start_time} className={className}>
       {icon && icons[icon]}
@@ -21,7 +21,7 @@ const SimpleEvent = ({
         <TimePlace start_time={start_time} end_time={end_time} place={place} />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SimpleEvent
+export default SimpleEvent;

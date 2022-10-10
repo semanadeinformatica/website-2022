@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-import styles from "../../styles/talk/link.module.css"
+import * as styles from "../../styles/talk/link.module.css";
 
 const Link = ({ link }) =>
   link && (
@@ -12,6 +12,6 @@ const Link = ({ link }) =>
     >
       Link
     </a>
-  )
+  );
 
-export default Link
+export default Link;

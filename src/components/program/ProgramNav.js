@@ -1,8 +1,8 @@
-import React from "react"
-import Nav from "react-bootstrap/Nav"
-import DayNavItem from "./DayNavItem"
+import React from "react";
+import Nav from "react-bootstrap/Nav";
+import DayNavItem from "./DayNavItem";
 
-import programStyles from "../../styles/program/program.module.css"
+import * as programStyles from "../../styles/program/program.module.css";
 
 const ProgramNav = ({ days, activeTab, toggle }) => (
   <div className={programStyles.programNavWrapper}>
@@ -32,7 +32,7 @@ const ProgramNav = ({ days, activeTab, toggle }) => (
                 />
               </Nav.Link>
             </Nav.Item>
-          )
+          );
         })}
       </Nav>
       <div className={programStyles.themeHeader}>
@@ -40,6 +40,6 @@ const ProgramNav = ({ days, activeTab, toggle }) => (
       </div>
     </div>
   </div>
-)
+);
 
-export default ProgramNav
+export default ProgramNav;

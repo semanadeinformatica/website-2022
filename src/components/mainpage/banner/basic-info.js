@@ -4,7 +4,7 @@ import {
   AiOutlineFacebook,
   AiOutlineInstagram
 } from "react-icons/ai";
-import BannerStyles from "../../../styles/mainpage/banner.module.css";
+import * as BannerStyles from "../../../styles/mainpage/banner.module.css";
 
 const links = [
   {

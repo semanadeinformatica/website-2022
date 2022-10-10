@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Img from "gatsby-image";
 import VanillaTilt from "vanilla-tilt";
-import Hover3dStyles from "../../styles/utils/hover3d.module.css";
+import * as Hover3dStyles from "../../styles/utils/hover3d.module.css";
 import "../../styles/utils/hover3d_override.css";
 
 import {

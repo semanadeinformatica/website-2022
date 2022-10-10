@@ -2,7 +2,7 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import PanelStyles from "../../styles/session/panel.module.css";
+import * as PanelStyles from "../../styles/session/panel.module.css";
 import Hover3d from "../utils/hover3d";
 
 const Participant = ({ participant, color }) => (

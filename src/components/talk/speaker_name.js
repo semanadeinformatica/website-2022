@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import SpeakerNameStyles from "../../styles/talk/speaker_name.module.css"
-import Occupations from "./occupations"
+import * as SpeakerNameStyles from "../../styles/talk/speaker_name.module.css";
+import Occupations from "./occupations";
 
 const SpeakerName = ({ name, occupations }) => {
   return (
@@ -12,7 +12,7 @@ const SpeakerName = ({ name, occupations }) => {
       </div>
       <Occupations occupations={occupations} />
     </div>
-  )
-}
+  );
+};
 
-export default SpeakerName
+export default SpeakerName;

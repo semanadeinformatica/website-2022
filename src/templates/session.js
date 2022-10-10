@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import SessionStyles from "../styles/session/session.module.css";
 import Layout from "../components/common/layout";
 import SEO from "../components/common/seo";
 import Banner from "../components/session/banner";

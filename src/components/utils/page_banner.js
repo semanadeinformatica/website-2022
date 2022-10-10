@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
-import BannerStyles from "../../styles/utils/page_banner.module.css"
+import * as BannerStyles from "../../styles/utils/page_banner.module.css";
 
 const PageBanner = ({ children }) => {
-  return <div className={BannerStyles.container}>{children}</div>
-}
+  return <div className={BannerStyles.container}>{children}</div>;
+};
 
-export default PageBanner
+export default PageBanner;

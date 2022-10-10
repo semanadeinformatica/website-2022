@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-import OccupationsStyles from "../../styles/utils/occupations.module.css"
+import * as OccupationsStyles from "../../styles/utils/occupations.module.css";
 
 const Occupations = ({ occupations }) => {
   return (
@@ -13,7 +13,7 @@ const Occupations = ({ occupations }) => {
         </span>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Occupations
+export default Occupations;

@@ -1,6 +1,6 @@
 import React from "react";
 import SingleSponsor from "./single-sponsor";
-import sponsorsStyles from "../../../styles/mainpage/sponsors.module.css";
+import * as sponsorsStyles from "../../../styles/mainpage/sponsors.module.css";
 
 export const getSponsors = (data, type) => {
   return data.allMarkdownRemark.edges

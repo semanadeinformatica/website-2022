@@ -3,8 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import AboutStyles from "../../../styles/mainpage/about.module.css";
-import mainStyles from "../../../styles/mainpage/mainpage.module.css";
+import * as AboutStyles from "../../../styles/mainpage/about.module.css";
+import * as mainStyles from "../../../styles/mainpage/mainpage.module.css";
 import Icon from "../../../images/svg/logo-outline-white.inline.svg";
 
 const About = () => {

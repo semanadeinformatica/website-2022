@@ -1,6 +1,6 @@
 import React from "react";
-import sponsorsStyles from "../../../styles/mainpage/sponsors.module.css";
-import mainStyles from "../../../styles/mainpage/mainpage.module.css";
+import * as sponsorsStyles from "../../../styles/mainpage/sponsors.module.css";
+import * as mainStyles from "../../../styles/mainpage/mainpage.module.css";
 import SponsorSection, { getSponsors } from "../sponsors/sponsor-section";
 import { useSponsors } from "../../hooks/sponsors-query";
 

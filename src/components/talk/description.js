@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Link from "./link";
 
-import DescriptionStyles from "../../styles/talk/description.module.css";
+import * as DescriptionStyles from "../../styles/talk/description.module.css";
 
 const calculateDay = date => {
   const oneDay = 24 * 60 * 60 * 1000;

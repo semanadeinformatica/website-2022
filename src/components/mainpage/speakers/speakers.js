@@ -1,12 +1,12 @@
-import React from "react"
-import { graphql, Link, useStaticQuery } from "gatsby"
-import speakersStyles from "../../../styles/mainpage/speakers.module.css"
-import mainStyles from "../../../styles/mainpage/mainpage.module.css"
-import Carousel from "../../utils/carousel"
-import SingleSpeaker from "./SingleSpeaker"
+import React from "react";
+import { graphql, Link, useStaticQuery } from "gatsby";
+import * as speakersStyles from "../../../styles/mainpage/speakers.module.css";
+import * as mainStyles from "../../../styles/mainpage/mainpage.module.css";
+import Carousel from "../../utils/carousel";
+import SingleSpeaker from "./SingleSpeaker";
 
 const getAllSpeakers = data => {
-  let speakers = []
+  let speakers = [];
 
   data.allMarkdownRemark.edges.forEach(({ node }) => {
     node.frontmatter.type !== "Placeholder" &&
@@ -14,13 +14,13 @@ const getAllSpeakers = data => {
         ...node.frontmatter.speakers.map(speaker => ({
           ...speaker,
           path: node.frontmatter.path,
-          id: node.id,
+          id: node.id
         }))
-      )
-  })
+      );
+  });
 
-  return speakers
-}
+  return speakers;
+};
 
 const Speakers = () => {
   const data = useStaticQuery(graphql`
@@ -49,9 +49,9 @@ const Speakers = () => {
         }
       }
     }
-  `)
+  `);
 
-  const speakers = getAllSpeakers(data)
+  const speakers = getAllSpeakers(data);
 
   return (
     speakers.length > 0 && (
@@ -70,11 +70,15 @@ const Speakers = () => {
           ))}
         </Carousel>
         <Link className={speakersStyles.allLink} to="/speakers">
-          <span className={speakersStyles.allLinkText}> Ver todos os speakers</span> <span className={speakersStyles.arrow}>&#8594;</span> 
+          <span className={speakersStyles.allLinkText}>
+            {" "}
+            Ver todos os speakers
+          </span>{" "}
+          <span className={speakersStyles.arrow}>&#8594;</span>
         </Link>
       </section>
     )
-  )
-}
+  );
+};
 
-export default Speakers
+export default Speakers;

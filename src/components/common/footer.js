@@ -7,7 +7,7 @@ import FacebookIcon from "../../images/svg/facebook.svg";
 import MailIcon from "../../images/svg/mail.svg";
 import LocationIcon from "../../images/svg/location.svg";
 
-import FooterStyles from "../../styles/common/footer.module.css";
+import * as FooterStyles from "../../styles/common/footer.module.css";
 
 const links = [
   {

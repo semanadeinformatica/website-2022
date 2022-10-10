@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import Img from "gatsby-image"
-import speakersStyles from "../../../styles/mainpage/speakers.module.css"
+import React from "react";
+import { Link } from "gatsby";
+import Img from "gatsby-image";
+import * as speakersStyles from "../../../styles/mainpage/speakers.module.css";
 
 const SingleSpeaker = ({ speaker, path }) => {
   return (
@@ -15,7 +15,7 @@ const SingleSpeaker = ({ speaker, path }) => {
         Ver {path.includes("talks") ? "palestra" : "workshop"}
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default SingleSpeaker
+export default SingleSpeaker;

@@ -6,7 +6,7 @@ import TimePlace from "./TimePlace";
 import Speakers from "./Speakers";
 import DescriptionToggler from "./DescriptionToggler";
 
-import eventsStyles from "../../styles/program/events.module.css";
+import * as eventsStyles from "../../styles/program/events.module.css";
 import SimpleEvent from "./SimpleEvent";
 
 const CommonEvent = ({ color, event }) => {

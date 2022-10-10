@@ -1,14 +1,14 @@
-import React from "react"
-import Img from "gatsby-image"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa"
+import React from "react";
+import Img from "gatsby-image";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
-import WebIcon from "../../images/svg/web_icon.inline.svg"
+import WebIcon from "../../images/svg/web_icon.inline.svg";
 
-import FrameStyles from "../../styles/talk/frame.module.css"
-import PartnershipStyles from "../../styles/talk/partnership.module.css"
+import * as FrameStyles from "../../styles/talk/frame.module.css";
+import * as PartnershipStyles from "../../styles/talk/partnership.module.css";
 
 const Partnership = ({ partnership }) => (
   <Container className={PartnershipStyles.container}>
@@ -59,6 +59,6 @@ const Partnership = ({ partnership }) => (
       </Col>
     </Row>
   </Container>
-)
+);
 
-export default Partnership
+export default Partnership;

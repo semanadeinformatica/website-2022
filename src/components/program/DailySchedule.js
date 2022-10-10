@@ -5,7 +5,7 @@ import SimpleEvent from "./SimpleEvent";
 import CommonEvent from "./CommonEvent";
 import EventsNav from "./EventsNav";
 
-import programStyles from "../../styles/program/program.module.css";
+import * as programStyles from "../../styles/program/program.module.css";
 
 const DailySchedule = ({ events }) => {
   const [activeTab, setActiveTab] = useState("talks");

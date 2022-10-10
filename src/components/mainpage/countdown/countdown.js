@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import AboutStyles from "../../../styles/mainpage/about.module.css";
+import * as AboutStyles from "../../../styles/mainpage/about.module.css";
 
 class Countdown extends React.Component {
   constructor(props) {

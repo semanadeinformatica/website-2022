@@ -2,7 +2,7 @@ import React from "react";
 
 import SingleSpeaker from "./single-speaker";
 
-import SpeakersStyles from "../../styles/speakers/speakers.module.css";
+import * as SpeakersStyles from "../../styles/speakers/speakers.module.css";
 
 const getSpeakers = talks => {
   const speakers = [];

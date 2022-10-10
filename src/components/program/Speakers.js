@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import eventsStyles from "../../styles/program/events.module.css";
+import * as eventsStyles from "../../styles/program/events.module.css";
 
 const Speakers = ({ speakers, path }) => {
   const printOccupations = speakers => {
