@@ -8,7 +8,7 @@ const getSpeakers = talks => {
   const speakers = [];
 
   talks
-    .filter(({ node }) => node.frontmatter.type !== "Placeholder")
+    .filter(({ node }) => node.frontmatter.type === "Talk")
     .forEach(({ node }) => {
       node.frontmatter.speakers.forEach(speaker => {
         speaker.path = node.frontmatter.path;
