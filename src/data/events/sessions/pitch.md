@@ -23,8 +23,6 @@ companies:
     link: ""
   - name: Adidas
     link: ""
-  - name: Capgemini Engineering
-    link: ""
   - name: Deloitte
     link: ""
   - name: Vodafone
