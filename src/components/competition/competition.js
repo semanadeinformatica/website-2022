@@ -8,8 +8,10 @@ import Participate from "../utils/participate";
 
 import * as CompetitionStyles from "../../styles/competition/competition.module.css";
 import Icon from "../../images/svg/logo-outline-white.inline.svg";
+
 import * as mainStyles from "../../styles/mainpage/mainpage.module.css";
 import * as ParticipateStyles from "../../styles/utils/participate.module.css";
+import OpenSoon from "../utils/open_soon";
 
 import Prize1 from "../../images/competition/first.png";
 import Prize2 from "../../images/competition/second.png";
@@ -113,9 +115,12 @@ const Competition = () => (
       </Container>
     </div>
 
-    <Participate link="https://www.hackerrank.com/sinf21-programming-contest">
+    {/*
+    <Participate link="">
       <p className={ParticipateStyles.participateText}>Vamos a isto?</p>
     </Participate>
+    */}
+    <OpenSoon />
   </div>
 );
 
