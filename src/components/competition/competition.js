@@ -10,6 +10,7 @@ import CompetitionStyles from "../../styles/competition/competition.module.css";
 import Icon from "../../images/svg/logo-outline-white.inline.svg";
 import mainStyles from "../../styles/mainpage/mainpage.module.css";
 import ParticipateStyles from "../../styles/utils/participate.module.css";
+import OpenSoon from "../utils/open_soon";
 
 const Competition = () => (
   <div className={CompetitionStyles.competitionPage}>
@@ -93,9 +94,12 @@ const Competition = () => (
       </Container>
     </div>
 
-    <Participate link="https://www.hackerrank.com/sinf21-programming-contest">
+    {/*
+    <Participate link="">
       <p className={ParticipateStyles.participateText}>Vamos a isto?</p>
     </Participate>
+    */}
+    <OpenSoon />
   </div>
 );
 
