@@ -49,6 +49,7 @@ export const talkQuery = graphql`
         title
         type
         day(formatString: "D MMMM", locale: "pt-PT")
+        date: day
         place
         start_time
         end_time
