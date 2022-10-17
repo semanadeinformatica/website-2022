@@ -8,9 +8,11 @@ import DescriptionStyles from "../../styles/talk/description.module.css";
 
 const calculateDay = date => {
   const oneDay = 24 * 60 * 60 * 1000;
-  let first_day = new Date(2021, 11, 15);
-  let day = new Date(2021, 11, date.replace(/(^\d+)(.+$)/i, "$1"));
-  return Math.round(Math.abs((day - first_day.getTime()) / oneDay)) + 1;
+  let first_day = new Date("October 31, 2022");
+  let day = new Date(date);
+  return (
+    Math.round(Math.abs((day.getTime() - first_day.getTime()) / oneDay)) + 1
+  );
 };
 
 const Description = ({ data, children }) => {
@@ -23,7 +25,7 @@ const Description = ({ data, children }) => {
           </h2>
           <Row className={DescriptionStyles.info_container}>
             <Col className={DescriptionStyles.date}>
-              <div>Dia {calculateDay(data.day)}</div>
+              <div>Dia {calculateDay(data.date)}</div>
               <div>{data.start_time}</div>
               <div>{data.day}</div>
             </Col>
