@@ -20,7 +20,7 @@ const DailySchedule = ({ events }) => {
   };
 
   return (
-    <Tab.Container defaultActiveKey="talks">
+    <Tab.Container activeKey={activeTab}>
       <EventsNav toggle={toggle} activeTab={activeTab} />
       <Tab.Content>
         <Tab.Pane eventKey="talks">
