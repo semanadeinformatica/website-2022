@@ -45,7 +45,7 @@ day: 2022-11-01
 start_time: 16h50
 end_time: 18h50
 type: panel
-
+place: Sala B014
 path: /panels/painel
 ---
 
