@@ -1,6 +1,6 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
-import ActivitiesStyle from "../../styles/activities/activities.module.css";
+import * as ActivitiesStyle from "../../styles/activities/activities.module.css";
 
 const Item = ({ description }) => {
   return (

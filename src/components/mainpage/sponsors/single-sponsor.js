@@ -1,6 +1,6 @@
-import React from "react"
-import Img from "gatsby-image"
-import sponsorStyles from "../../../styles/mainpage/single-sponsor.module.css"
+import React from "react";
+import Img from "gatsby-image";
+import * as sponsorStyles from "../../../styles/mainpage/single-sponsor.module.css";
 
 const SingleSponsor = ({ sponsor, type }) => {
   return (
@@ -10,7 +10,7 @@ const SingleSponsor = ({ sponsor, type }) => {
         fluid={sponsor.img.childImageSharp.fluid}
       />
     </div>
-  )
-}
+  );
+};
 
-export default SingleSponsor
+export default SingleSponsor;

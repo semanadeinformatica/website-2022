@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import CompaniesStyles from "../../styles/session/companies.module.css";
+import * as CompaniesStyles from "../../styles/session/companies.module.css";
 import { useStaticQuery } from "gatsby";
 
 const Companies = ({ companies }) => {

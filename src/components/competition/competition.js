@@ -6,11 +6,17 @@ import Col from "react-bootstrap/Col";
 import Prize from "../competition/prize";
 import Participate from "../utils/participate";
 
-import CompetitionStyles from "../../styles/competition/competition.module.css";
+import * as CompetitionStyles from "../../styles/competition/competition.module.css";
 import Icon from "../../images/svg/logo-outline-white.inline.svg";
-import mainStyles from "../../styles/mainpage/mainpage.module.css";
-import ParticipateStyles from "../../styles/utils/participate.module.css";
+
+import * as mainStyles from "../../styles/mainpage/mainpage.module.css";
+import * as ParticipateStyles from "../../styles/utils/participate.module.css";
 import OpenSoon from "../utils/open_soon";
+
+import Prize1 from "../../images/competition/first.png";
+import Prize2 from "../../images/competition/second.png";
+import Prize3 from "../../images/competition/third.png";
+import Default from "../../images/svg/suprise_block.png";
 
 const Competition = () => (
   <div className={CompetitionStyles.competitionPage}>
@@ -37,9 +43,24 @@ const Competition = () => (
     </Container> */}
     <Container>
       <Row className={CompetitionStyles.prizeSquares}>
-        <Prize type="first" title="Nintendo Switch" description="" />
-        <Prize type="second" title="Headphones Bluetooth Sony" description="" />
-        <Prize type="third" title="Cartão oferta Fnac 100€" description="" />
+        <Prize
+          type="first"
+          title="Nintendo Switch"
+          description=""
+          image={Default}
+        />
+        <Prize
+          type="second"
+          title="Headphones Bluetooth Sony"
+          description=""
+          image={Default}
+        />
+        <Prize
+          type="third"
+          title="Cartão oferta Fnac 100€"
+          description=""
+          image={Default}
+        />
       </Row>
     </Container>
     <div className={CompetitionStyles.conditions}>

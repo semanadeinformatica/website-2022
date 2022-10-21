@@ -1,11 +1,11 @@
-import React from "react"
-import { Link } from "gatsby"
-import SEO from "../components/common/seo"
+import React from "react";
+import { Link } from "gatsby";
+import SEO from "../components/common/seo";
 
-import Face from "../images/svg/not_found_face.inline.svg"
-import Numbers from "../images/svg/not_found_numbers.inline.svg"
+import Face from "../images/svg/not_found_face.inline.svg";
+import Numbers from "../images/svg/not_found_numbers.inline.svg";
 
-import NotFoundStyles from "../styles/404.module.css"
+import * as NotFoundStyles from "../styles/404.module.css";
 
 const NotFoundPage = () => (
   <React.Fragment>
@@ -19,6 +19,6 @@ const NotFoundPage = () => (
       </Link>
     </div>
   </React.Fragment>
-)
+);
 
-export default NotFoundPage
+export default NotFoundPage;

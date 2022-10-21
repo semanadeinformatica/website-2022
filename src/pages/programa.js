@@ -6,7 +6,7 @@ import SEO from "../components/common/seo";
 import DailySchedule from "../components/program/DailySchedule";
 import ProgramNav from "../components/program/ProgramNav";
 import PageBanner from "../components/utils/page_banner";
-import programStyles from "../styles/program/program.module.css";
+import * as programStyles from "../styles/program/program.module.css";
 import { splitDays } from "../utils/programUtils";
 
 export const eventsQuery = graphql`

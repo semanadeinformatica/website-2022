@@ -1,7 +1,7 @@
 import React from "react";
 import Hover3d from "../utils/hover3d";
 
-import TeamStyles from "../../styles/team/team.module.css";
+import * as TeamStyles from "../../styles/team/team.module.css";
 
 const divide_rows = (members, n_per_row) => {
   const member_rows = [];

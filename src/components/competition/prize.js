@@ -1,9 +1,9 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 
-import CompetitionStyles from "../../styles/competition/competition.module.css";
+import * as CompetitionStyles from "../../styles/competition/competition.module.css";
 
-const Prize = ({ type, description, title }) => {
+const Prize = ({ type, description, title, image }) => {
   let prizeName, prizeStyle;
   if (type === "first")
     [prizeName, prizeStyle] = ["1º prémio", CompetitionStyles.prizeFirst];
@@ -20,8 +20,7 @@ const Prize = ({ type, description, title }) => {
       <div className="pl-0">
         <img
           className={CompetitionStyles.squarePrize}
-          //src={require("../../images/competition/" + type + ".png")} //uncomment later
-          src={require("../../images/svg/suprise_block.png")}
+          src={image}
           height="280px"
           width="280px"
           alt="Prize"

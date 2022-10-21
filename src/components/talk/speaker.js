@@ -1,11 +1,11 @@
-import React from "react"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import SpeakerFrame from "./speaker_frame"
-import SpeakerName from "./speaker_name"
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import SpeakerFrame from "./speaker_frame";
+import SpeakerName from "./speaker_name";
 
-import SpeakerStyles from "../../styles/talk/speaker.module.css"
+import * as SpeakerStyles from "../../styles/talk/speaker.module.css";
 
 const Speaker = ({ data }) => {
   return (
@@ -30,7 +30,7 @@ const Speaker = ({ data }) => {
         <p className={SpeakerStyles.bio}>{data.bio}</p>
       </div>
     </Container>
-  )
-}
+  );
+};
 
-export default Speaker
+export default Speaker;

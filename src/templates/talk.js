@@ -9,7 +9,7 @@ import Description from "../components/talk/description";
 import Participate from "../components/utils/participate";
 import Partnership from "../components/talk/partnership";
 
-import TalkStyles from "../styles/talk/talk.module.css";
+import * as TalkStyles from "../styles/talk/talk.module.css";
 
 export default function Template({ data }) {
   const { markdownRemark: talk } = data;

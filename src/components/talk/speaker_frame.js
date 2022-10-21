@@ -1,10 +1,10 @@
-import React from "react"
-import Img from "gatsby-image"
+import React from "react";
+import Img from "gatsby-image";
 
-import { FaLinkedin, FaGithubSquare, FaTwitterSquare } from "react-icons/fa"
-import Globe from "../../images/svg/web_icon.inline.svg"
+import { FaLinkedin, FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
+import Globe from "../../images/svg/web_icon.inline.svg";
 
-import FrameStyles from "../../styles/talk/frame.module.css"
+import * as FrameStyles from "../../styles/talk/frame.module.css";
 
 const SpeakerFrame = ({ img, website, linkedin, github, twitter }) => {
   return (
@@ -41,7 +41,7 @@ const SpeakerFrame = ({ img, website, linkedin, github, twitter }) => {
         )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SpeakerFrame
+export default SpeakerFrame;

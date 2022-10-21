@@ -2,7 +2,7 @@ import React from "react";
 import classnames from "classnames";
 import Img from "gatsby-image";
 
-import OverlayStyles from "../../styles/utils/overlay.module.css";
+import * as OverlayStyles from "../../styles/utils/overlay.module.css";
 
 const MemberOverlay = ({ main, secondary, image, color, border }) => (
   <div

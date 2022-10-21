@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 
-import programStyles from "../../styles/program/program.module.css";
+import * as programStyles from "../../styles/program/program.module.css";
 
 const EventsNav = ({ toggle, activeTab }) => (
   <Nav className="justify-content-center">

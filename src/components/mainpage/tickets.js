@@ -1,7 +1,7 @@
 import React from "react";
 import Countdown from "./countdown/countdown";
 import Container from "react-bootstrap/Container";
-import ticketsStyles from "../../styles/mainpage/tickets.module.css";
+import * as ticketsStyles from "../../styles/mainpage/tickets.module.css";
 
 const Tickets = () => (
   <section className={ticketsStyles.section}>

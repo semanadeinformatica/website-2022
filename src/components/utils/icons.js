@@ -9,7 +9,7 @@ import {
 import Day1Icon from "../../images/svg/day1.svg";
 import Day2Icon from "../../images/svg/day2.svg";
 import Day3Icon from "../../images/svg/day3.svg";
-import IconStyles from "../../styles/utils/icons.module.css";
+import * as IconStyles from "../../styles/utils/icons.module.css";
 
 const icons = {
   calendar: <FaCalendarCheck color="#0c0044" size="2em" />,

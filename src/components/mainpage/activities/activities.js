@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import ActivitiesStyles from "../../../styles/mainpage/activities.module.css";
+import * as ActivitiesStyles from "../../../styles/mainpage/activities.module.css";
 
 const Activities = () => {
   return (

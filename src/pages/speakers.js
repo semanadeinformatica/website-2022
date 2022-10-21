@@ -1,13 +1,13 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Container from "react-bootstrap/Container"
+import React from "react";
+import { graphql } from "gatsby";
+import Container from "react-bootstrap/Container";
 
-import Layout from "../components/common/layout"
-import SEO from "../components/common/seo"
-import PageBanner from "../components/utils/page_banner"
-import DailySpeakers from "../components/speakers/daily-speakers"
+import Layout from "../components/common/layout";
+import SEO from "../components/common/seo";
+import PageBanner from "../components/utils/page_banner";
+import DailySpeakers from "../components/speakers/daily-speakers";
 
-import SpeakersStyle from "../styles/speakers/speakers.module.css"
+import * as SpeakersStyle from "../styles/speakers/speakers.module.css";
 
 const SpeakersPage = ({ data }) => (
   <Layout darkFooter>
@@ -21,7 +21,7 @@ const SpeakersPage = ({ data }) => (
       ))}
     </Container>
   </Layout>
-)
+);
 
 export const pageQuery = graphql`
   query SpeakersQuery {
@@ -58,6 +58,6 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
 
-export default SpeakersPage
+export default SpeakersPage;

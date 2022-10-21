@@ -1,9 +1,9 @@
-import React from "react"
-import Container from "react-bootstrap/Container"
+import React from "react";
+import Container from "react-bootstrap/Container";
 
-import Participant from "./participant"
+import Participant from "./participant";
 
-import PanelStyles from "../../styles/session/panel.module.css"
+import * as PanelStyles from "../../styles/session/panel.module.css";
 
 const Participants = ({ participants }) => (
   <div className={PanelStyles.wrapper}>
@@ -17,6 +17,6 @@ const Participants = ({ participants }) => (
       ))}
     </Container>
   </div>
-)
+);
 
-export default Participants
+export default Participants;
