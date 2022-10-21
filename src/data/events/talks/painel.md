@@ -4,7 +4,7 @@ img: ../../../images/svg/panel.svg
 
 # Participants to be decided
 participants:
-  - name: "Participante"
+  - name: "Paulo Ribeiro"
     occupations:
       - what: ""
         where: ""
@@ -16,7 +16,7 @@ participants:
     twitter: ""
     website: ""
     instagram: ""
-  - name: "Participante"
+  - name: "Francisco Neves"
     occupations:
       - what: ""
         where: ""
@@ -28,7 +28,19 @@ participants:
     twitter: ""
     website: ""
     instagram: ""
-  - name: "Participante"
+  - name: "André Restivo"
+    occupations:
+      - what: ""
+        where: ""
+    bio: ""
+    role: "A anunciar em breve"
+
+    img: "../../../images/speakers/default.jpg"
+    linkedin: ""
+    twitter: ""
+    website: ""
+    instagram: ""
+  - name: "Teresa Matos"
     occupations:
       - what: ""
         where: ""
