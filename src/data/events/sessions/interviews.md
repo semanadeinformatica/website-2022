@@ -4,7 +4,7 @@ img: ../../../images/svg/interviews.svg
 day: 2022-10-31
 start_time: 15h40
 end_time: 17h40
-place: Sala por anunciar
+place: Salas B214, B216
 path: /sessions/sessao-de-entrevistas
 type: session
 registration: soon
