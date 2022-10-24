@@ -115,12 +115,14 @@ const Competition = () => (
       </Container>
     </div>
 
-    {/*
-    <Participate link="">
-      <p className={ParticipateStyles.participateText}>Vamos a isto?</p>
-    </Participate>
-    */}
-    <OpenSoon />
+    {
+      <Participate link="http://www.hackerrank.com/sinf22-programming-contest">
+        <p className={ParticipateStyles.participateText}>Vamos a isto?</p>
+      </Participate>
+    }
+    {
+      // <OpenSoon />
+    }
   </div>
 );
 
