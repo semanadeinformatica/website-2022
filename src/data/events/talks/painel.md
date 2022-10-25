@@ -9,7 +9,7 @@ participants:
       - what: ""
         where: "Smartex"
     bio: ""
-    role: ""
+    role: "Orador"
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
@@ -21,7 +21,7 @@ participants:
       - what: ""
         where: "Nutrium"
     bio: ""
-    role: ""
+    role: "Orador"
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
@@ -33,7 +33,7 @@ participants:
       - what: ""
         where: "FEUP"
     bio: ""
-    role: ""
+    role: "Orador"
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
@@ -45,7 +45,7 @@ participants:
       - what: ""
         where: "FEUP"
     bio: ""
-    role: ""
+    role: "Orador"
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
@@ -57,7 +57,7 @@ participants:
       - what: ""
         where: "Amazon"
     bio: ""
-    role: ""
+    role: "Orador"
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
@@ -69,7 +69,7 @@ participants:
       - what: ""
         where: "Replai"
     bio: ""
-    role: ""
+    role: "Orador"
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
