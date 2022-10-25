@@ -11,23 +11,17 @@ registration: soon
 companies:
   - name: Accenture
     link: ""
+  - name: Bosch
+    link: ""
   - name: Continental Mabor
     link: ""
   - name: Critical Manufacturing
     link: ""
   - name: DevScope
     link: ""
+  - name: Kodly
+    link: ""
   - name: PwC
-    link: ""
-  - name: Bosch
-    link: ""
-  - name: Adidas
-    link: ""
-  - name: Deloitte
-    link: ""
-  - name: Vodafone
-    link: ""
-  - name: Glintt
     link: ""
 ---
 
