@@ -1,13 +1,13 @@
 ---
-title: #Visita à ITSector
+title: Visita à ITSector
 img: ../../../images/svg/interviews.svg
 day: 2022-11-02
 start_time: 09h30
 end_time: 12h30
 place: Visita à ITSector
-path: ""
+path: /visits/itsector
 type: Visit
-registration: soon # TODO
+registration: soon
 ---
 
 ##### ⚠️ Transporte ⚠️
