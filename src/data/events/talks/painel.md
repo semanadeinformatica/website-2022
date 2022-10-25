@@ -7,9 +7,9 @@ participants:
   - name: "Paulo Ribeiro"
     occupations:
       - what: ""
-        where: ""
+        where: "Smartex"
     bio: ""
-    role: "A anunciar em breve"
+    role: ""
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
@@ -19,9 +19,9 @@ participants:
   - name: "Francisco Neves"
     occupations:
       - what: ""
-        where: ""
+        where: "Nutrium"
     bio: ""
-    role: "A anunciar em breve"
+    role: ""
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
@@ -31,9 +31,9 @@ participants:
   - name: "André Restivo"
     occupations:
       - what: ""
-        where: ""
+        where: "FEUP"
     bio: ""
-    role: "A anunciar em breve"
+    role: ""
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
@@ -43,9 +43,33 @@ participants:
   - name: "Teresa Matos"
     occupations:
       - what: ""
-        where: ""
+        where: "FEUP"
     bio: ""
-    role: "A anunciar em breve"
+    role: ""
+
+    img: "../../../images/speakers/default.jpg"
+    linkedin: ""
+    twitter: ""
+    website: ""
+    instagram: ""
+  - name: "Miguel Duarte"
+    occupations:
+      - what: ""
+        where: "Amazon"
+    bio: ""
+    role: ""
+
+    img: "../../../images/speakers/default.jpg"
+    linkedin: ""
+    twitter: ""
+    website: ""
+    instagram: ""
+  - name: "Gustavo Silva"
+    occupations:
+      - what: ""
+        where: "Replai"
+    bio: ""
+    role: ""
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
