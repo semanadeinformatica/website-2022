@@ -20,7 +20,7 @@ speakers:
 day: 2022-10-31
 start_time: 15h10
 end_time: 17h40
-place: Sala por anunciar
+place: I003
 type: Workshop
 
 path: /workshops/intro_ctf
