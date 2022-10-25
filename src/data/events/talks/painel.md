@@ -1,5 +1,5 @@
 ---
-title: Mitos da Informática
+title: Mitos na Carreira de um Informático
 img: ../../../images/svg/panel.svg
 
 # Participants to be decided
