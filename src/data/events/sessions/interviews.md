@@ -7,7 +7,7 @@ end_time: 17h40
 place: Salas B214, B216
 path: /sessions/sessao-de-entrevistas
 type: session
-registration: soon
+registration: https://www.eventbrite.pt/e/bilhetes-sinf-2022-sessao-de-entrevistas-449857926167
 companies:
   - name: Accenture
     link: ""
