@@ -1,39 +1,75 @@
 ---
-title: Mitos da Informática
+title: Mitos na Carreira de um Informático
 img: ../../../images/svg/panel.svg
 
 # Participants to be decided
 participants:
-  - name: "Participante"
+  - name: "Paulo Ribeiro"
     occupations:
       - what: ""
-        where: ""
+        where: "Smartex"
     bio: ""
-    role: "A anunciar em breve"
+    role: "Orador"
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
     twitter: ""
     website: ""
     instagram: ""
-  - name: "Participante"
+  - name: "Francisco Neves"
     occupations:
       - what: ""
-        where: ""
+        where: "Nutrium"
     bio: ""
-    role: "A anunciar em breve"
+    role: "Orador"
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""
     twitter: ""
     website: ""
     instagram: ""
-  - name: "Participante"
+  - name: "André Restivo"
     occupations:
       - what: ""
-        where: ""
+        where: "FEUP"
     bio: ""
-    role: "A anunciar em breve"
+    role: "Orador"
+
+    img: "../../../images/speakers/default.jpg"
+    linkedin: ""
+    twitter: ""
+    website: ""
+    instagram: ""
+  - name: "Teresa Matos"
+    occupations:
+      - what: ""
+        where: "FEUP"
+    bio: ""
+    role: "Orador"
+
+    img: "../../../images/speakers/default.jpg"
+    linkedin: ""
+    twitter: ""
+    website: ""
+    instagram: ""
+  - name: "Miguel Duarte"
+    occupations:
+      - what: ""
+        where: "Amazon"
+    bio: ""
+    role: "Orador"
+
+    img: "../../../images/speakers/default.jpg"
+    linkedin: ""
+    twitter: ""
+    website: ""
+    instagram: ""
+  - name: "Gustavo Silva"
+    occupations:
+      - what: ""
+        where: "Replai"
+    bio: ""
+    role: "Orador"
 
     img: "../../../images/speakers/default.jpg"
     linkedin: ""

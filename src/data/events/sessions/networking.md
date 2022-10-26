@@ -7,7 +7,7 @@ end_time: 17h40
 place: Sala por anunciar
 path: /sessions/sessao-de-networking
 type: session
-registration: soon
+registration: https://www.eventbrite.pt/e/sinf-2022-sessao-de-cocktails-tickets-448699461167
 companies:
   - name: Accenture
     link: ""
