@@ -1,13 +1,13 @@
 ---
-title: #Visita à Critical Manufacturing
+title: Visita à Critical Manufacturing
 img: ../../../images/svg/interviews.svg
-day: 2022-10-31
+day: 2022-11-02
 start_time: 09h30
 end_time: 12h30
 place: Visita à Critical Manufacturing
-path: ""
+path: /visits/critical-manufacturing
 type: Visit
-registration: soon # TODO
+registration: https://www.eventbrite.pt/e/visitas-a-empresas-tickets-451667538767
 ---
 
 ##### ⚠️ Transporte ⚠️
