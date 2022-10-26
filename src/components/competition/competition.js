@@ -76,8 +76,8 @@ const Competition = () => (
             <Col xs="12" className={CompetitionStyles.conditionList}>
               <ul>
                 <li>
-                  A Competição terá início dia 31 de Outubro às 21h30,
-                  decorrendo durante os 3 próximos dias até dia 2 de Novembro às
+                  A competição terá início dia 30 de outubro às 21h30,
+                  decorrendo durante os 3 próximos dias até dia 2 de novembro às
                   15:00.
                 </li>
                 <li>
@@ -85,8 +85,8 @@ const Competition = () => (
                   HackerRank.
                 </li>
                 <li>
-                  Serão lançados diariamente 2 novos desafios, nos dias 31, 1 e
-                  2 de novembro às 21h30.
+                  Serão lançados diariamente 2 novos desafios, nos dias 30, 31 e
+                  1 de novembro às 21h30.
                 </li>
                 <li>
                   Apenas estarás habilitado aos prémios caso tenhas tenhas
