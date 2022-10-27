@@ -25,8 +25,6 @@ companies:
     link: ""
   - name: Deloitte
     link: ""
-  - name: Vodafone
-    link: ""
   - name: Glintt
     link: ""
 ---
