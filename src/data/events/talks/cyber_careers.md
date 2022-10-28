@@ -1,5 +1,5 @@
 ---
-title: TBD
+title: Careers in Cybersecurity
 
 speakers:
   - name: Pedro Queirós
@@ -10,7 +10,7 @@ speakers:
     Pedro holds a Master in Network Communications Engineering and is a Postgraduate in Cyber Security and Cyber Defense. He’s also involved in the Woman4Cyber Portugal organization.
     When not in front of a computer, he loves to read, play with his daughters and just have fun."
 
-    img: "../../../images/speakers/default.jpg"
+    img: "../../../images/speakers/pedro_queiros.jpeg"
     linkedin: https://www.linkedin.com/in/pedroqueiros
 
 day: 2022-10-31
@@ -19,7 +19,7 @@ end_time: 17h40
 place: Sala B014
 type: Talk
 
-path: /talks/pedo_queiros
+path: /talks/cyber_careers
 ---
 
-TBD
+Demystifying how you can start in Cybersecurity and why you don't need to wear a hoodie to work in the area. In this talk, I'll go over some common myths about cybersecurity jobs and share some personal insights.
