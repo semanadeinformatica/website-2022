@@ -47,13 +47,13 @@ participants:
     occupations:
       - what: ""
         where: "Amazon"
-    bio: ""
+    bio: "Ex-aluno do MIEIC, formado em 2021, Miguel é atualmente Software Development Engineer na Amazon em Berlim. Anteriormente, foi também Pentester na Integrity, e fez estágios de verão como Full-stack Software Engineer na Fractal e na Blip.pt. Durante o curso participou em diversas atividades e grupos estudantis, sendo Presidente do NIAEFEUP durante 2 anos, fazendo até parte da equipa fundadora da Semana de Informática como evento organizado pelo NIAEFEUP."
     role: "Orador"
 
-    img: "../../../images/speakers/default.jpg"
-    linkedin: ""
+    img: "../../../images/speakers/miguel_duarte.jpg"
+    linkedin: "https://www.linkedin.com/in/miguelpduarte/"
     twitter: ""
-    website: ""
+    website: "https://miguelpduarte.me/"
     instagram: ""
   - name: "Gustavo Silva"
     occupations:
