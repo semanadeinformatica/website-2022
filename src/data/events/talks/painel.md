@@ -4,6 +4,14 @@ img: ../../../images/svg/panel.svg
 
 # Participants to be decided
 participants:
+  - name: "Maria João"
+    occupations:
+      - what: ""
+        where: "Fidel API"
+    bio: "TBD"
+    role: "Moderadora"
+
+    img: "../../../images/speakers/default.jpg"
   - name: "Paulo Ribeiro"
     occupations:
       - what: "VP de Engenharia"
@@ -13,18 +21,6 @@ participants:
 
     img: "../../../images/speakers/paulo_ribeiro.png"
     linkedin: "https://www.linkedin.com/in/paulo-ribeiro-818880129/"
-  - name: "Francisco Neves"
-    occupations:
-      - what: ""
-        where: "Nutrium"
-    bio: ""
-    role: "Orador"
-
-    img: "../../../images/speakers/default.jpg"
-    linkedin: ""
-    twitter: ""
-    website: ""
-    instagram: ""
   - name: "André Restivo"
     occupations:
       - what: "Professor Auxiliar"
@@ -39,7 +35,7 @@ participants:
       - what: "Docente | Freelancer (Interactive Media Developer)"
         where: "FEUP | Remoto"
     bio: "A Teresa Matos é docente na FEUP, focada nos tópicos de Computação Gráfica e Desenvolvimento de Jogos. Encontrou a sua paixão nestas áreas enquanto estudante, através da sua experiência como presidente do Núcleo Estudantil de Computação Gráfica e Multimédia (atual NCGM), promovendo a organização de Game Dev Meets, Game Jams, entre outras atividades. Posteriormente, realizou diversos projetos relacionados com conteúdos imersivos e interativos (VR, AR, vídeos 360°), no contexto académico e mais tarde na indústria, em colaboração com diversas empresas portuguesas da área, como Ground Control Studios, 3Decide e Mindera."
-    role: "Orador"
+    role: "Oradora"
 
     img: "../../../images/speakers/teresa_matos.jpg"
     linkedin: "https://www.linkedin.com/in/teresa-matos/"
@@ -66,6 +62,14 @@ Em paralelo, mantém um blogue pessoal onde resume as suas descobertas enquanto 
     img: "../../../images/speakers/gustavo_silva.jpg"
     linkedin: "https://www.linkedin.com/in/silva95gustavo"
     website: "https://gustavosilva.me/"
+  - name: "Francisco Neves"
+    occupations:
+      - what: "Team Lead"
+        where: "Nutrium"
+    bio: "Francisco é Doutorado em Informática e ingressou na sua primeira experiência na indústria há cerca de 2 anos. Fez todo o seu percurso académico na Universidade do Minho, durante o qual sempre manteve um pé em desenvolvimento de projetos em paralelo, com o objetivo de se manter na vanguarda da tecnologia. Atualmente, é Team Lead na Nutrium, onde lidera uma equipa de Engenheiros de Software dedicados a evoluir a plataforma da Nutrium, com o objetivo de a tornar numa referência mundial na área da nutrição."
+    role: "Orador"
+
+    img: "../../../images/speakers/francisco_neves.jpeg"
 
 day: 2022-11-01
 start_time: 16h50
