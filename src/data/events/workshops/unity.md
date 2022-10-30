@@ -15,7 +15,7 @@ speakers:
 day: 2022-11-01
 start_time: 14h00
 end_time: 16h30
-place: I003
+place: Sala I003
 type: Workshop
 
 path: /workshops/unity
