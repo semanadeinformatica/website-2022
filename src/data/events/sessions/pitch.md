@@ -4,9 +4,9 @@ img: ../../../images/svg/pitch.svg
 day: 2022-10-31
 start_time: 18h00
 end_time: 20h00
-place: Sala por anunciar
+place: Sala B014
 path: /sessions/pitch-de-oportunidades
-registration: soon # To be filled
+registration: https://www.eventbrite.pt/e/bilhetes-sinf-2022-semana-de-informatica-438681085937
 type: session
 companies:
   - name: Accenture

@@ -6,12 +6,13 @@ img: ../../../images/svg/panel.svg
 participants:
   - name: "Maria João"
     occupations:
-      - what: ""
-        where: "Fidel API"
-    bio: "TBD"
+      - what: "Frontend Engineer"
+        where: "FIDEL API"
+    bio: "Ex-estudante do Mestrado Integrado em Engenharia Informática na FEUP, a Maria João encontra-se atualmente a trabalhar como Frontend Engineer na FIDEL API, uma startup britânica na área de fintech. Previamente como Full-Stack Developer na Talkdesk, tem particular interesse a área the web development"
     role: "Moderadora"
 
-    img: "../../../images/speakers/default.jpg"
+    img: "../../../images/speakers/maria_joao.jpg"
+    linkedin: "https://www.linkedin.com/in/maria-joao-mira-paulo/"
   - name: "Paulo Ribeiro"
     occupations:
       - what: "VP de Engenharia"

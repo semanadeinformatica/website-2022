@@ -13,3 +13,8 @@ registration: https://www.eventbrite.pt/e/visitas-a-empresas-tickets-45166753876
 ##### ⚠️ Transporte ⚠️
 
 Será assegurado transporte desde a FEUP até aos escritórios da ITSector. A hora de partida é às 09:30 e prevê-se o regresso às 12:30. Não existe nenhum custo associado com o mesmo.
+
+#### 🎟️ Bio
+
+Vamos conhecer a ITSector? 😀
+A ITSector é uma empresa de desenvolvimento de software especializada na Transformação Digital para instituições financeiras. Desde 2005 que permitimos a utilizadores de todo o mundo interagir com aplicações empresariais, mudando a sua vida através de tecnologia, inovação e conhecimento especializado.

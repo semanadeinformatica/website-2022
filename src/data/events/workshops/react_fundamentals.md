@@ -16,7 +16,7 @@ speakers:
 day: 2022-11-02
 start_time: 14h00
 end_time: 17h00
-place: I003
+place: Sala I003
 type: Workshop
 
 path: /workshops/react_fundamentals
