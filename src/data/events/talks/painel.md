@@ -8,7 +8,7 @@ participants:
     occupations:
       - what: "Frontend Engineer"
         where: "FIDEL API"
-    bio: "Ex-estudante do Mestrado Integrado em Engenharia Informática na FEUP, a Maria João encontra-se atualmente a trabalhar como Frontend Engineer na FIDEL API, uma startup britânica na área de fintech. Previamente como Full-Stack Developer na Talkdesk, tem particular interesse a área de web development"
+    bio: "Ex-estudante do Mestrado Integrado em Engenharia Informática na FEUP, a Maria João encontra-se atualmente a trabalhar como Frontend Engineer na FIDEL API, uma startup britânica na área de fintech. Previamente como Full-Stack Developer na Talkdesk, tem particular interesse na área de web development"
     role: "Moderadora"
 
     img: "../../../images/speakers/maria_joao.jpg"
@@ -17,7 +17,7 @@ participants:
     occupations:
       - what: "VP de Engenharia"
         where: "Smartex"
-    bio: "Nascido e crescido em Esposende, interessado com computadores e programação desde novo. Andei na Universidade na FCUP, onde completei o meu mestrado em Engenharia de Redes e Sistemas de Infomração, com a tese em 'Secure Cloud Storage for Android Devices'. Fiz uma pós-graduação com o Instituto de Telecomunicações em 'IIoT real-time communications over wireless'. Após isso, fundei a Smartex.ai junto com Gilberto Loureiro e António Rocha, estive um ano em Shenzhen China e voltei ao Porto para criar e escalar uma equipa de Software."
+    bio: "Nascido e crescido em Esposende, interessado com computadores e programação desde novo. Andei na Universidade na FCUP, onde completei o meu mestrado em Engenharia de Redes e Sistemas de Informação, com a tese em 'Secure Cloud Storage for Android Devices'. Fiz uma pós-graduação com o Instituto de Telecomunicações em 'IoT real-time communications over wireless'. Após isso, fundei a Smartex.ai junto com Gilberto Loureiro e António Rocha, estive um ano em Shenzhen China e voltei ao Porto para criar e escalar uma equipa de Software."
     role: "Orador"
 
     img: "../../../images/speakers/paulo_ribeiro.png"
