@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 
 import Prize from "../competition/prize";
 import Participate from "../utils/participate";
+import Leaderbord from "./leaderbord";
 
 import * as CompetitionStyles from "../../styles/competition/competition.module.css";
 import Icon from "../../images/svg/logo-outline-white.inline.svg";
@@ -17,6 +18,7 @@ import Prize1 from "../../images/competition/first.png";
 import Prize2 from "../../images/competition/second.png";
 import Prize3 from "../../images/competition/third.png";
 import Default from "../../images/svg/suprise_block.png";
+import Rank from "../../images/competition/winners.png";
 
 const Competition = () => (
   <div className={CompetitionStyles.competitionPage}>
@@ -114,14 +116,15 @@ const Competition = () => (
         </div>
       </Container>
     </div>
-
+    {
+      <Container>
+        <Leaderbord title="Leaderbord" image={Rank} />
+      </Container>
+    }
     {
       <Participate link="http://www.hackerrank.com/sinf22-programming-contest">
         <p className={ParticipateStyles.participateText}>Vamos a isto?</p>
       </Participate>
-    }
-    {
-      // <OpenSoon />
     }
   </div>
 );
