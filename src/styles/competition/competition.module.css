@@ -144,6 +144,12 @@
   color: white;
 }
 
+.winnersImage {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+}
+
 @media (max-width: 1366px) {
   .squarePrize {
     height: 240px;
